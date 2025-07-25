@@ -50,11 +50,13 @@ export async function readLocaleDoc(
 ): Promise<LocaleDoc> {
   const localePath = path.join(rootPath, locale);
   const filename = path.join(localePath, "index.json");
+  const filenamePart = path.join(localePath, `${locale}.json`);
   const content = await require(filename);
+  const partial = await require(filenamePart);
 
   return {
     locale,
-    doc: content
+    doc: { ...content, ...partial }
   };
 }
 

@@ -8,8 +8,8 @@ import {
   useState
 } from "react";
 import { Alert } from "react-native";
+import { useTranslate } from "@tolgee/react";
 import { useIOBottomSheetModal } from "../../../utils/hooks/bottomSheet";
-import I18n from "../../../i18n";
 import {
   appReviewNegativeFeedback,
   appReviewPositiveFeedback,
@@ -22,6 +22,7 @@ import {
   appFeedbackUriConfigSelector
 } from "../../../store/reducers/backendStatus/remoteConfig";
 import { canAskFeedbackSelector } from "../store/selectors";
+import { tolgee } from "../../../App";
 
 type AppFeedbackContextType = {
   requestFeedback: (topic: TopicKeys) => void;
@@ -38,16 +39,16 @@ export const AppFeedbackProvider = ({ children }: PropsWithChildren) => {
   const surveyUrl = useIOSelector(appFeedbackUriConfigSelector(topic));
   const appFeedbackEnabled = useIOSelector(appFeedbackEnabledSelector);
   const canAskFeedback = useIOSelector(canAskFeedbackSelector(topic));
-
+  const { t } = useTranslate();
   const { bottomSheet, present, dismiss } = useIOBottomSheetModal({
-    title: I18n.t("appFeedback.bottomSheet.title"),
-    component: <Body>{I18n.t("appFeedback.bottomSheet.description")}</Body>,
+    title: t("appFeedback.bottomSheet.title"),
+    component: <Body>{t("appFeedback.bottomSheet.description")}</Body>,
     footer: (
       <FooterActions
         actions={{
           type: "TwoButtons",
           primary: {
-            label: I18n.t("appFeedback.bottomSheet.continue"),
+            label: t("appFeedback.bottomSheet.continue"),
             onPress: () => {
               if (surveyUrl) {
                 void openAuthenticationSession(surveyUrl, "");
@@ -57,9 +58,9 @@ export const AppFeedbackProvider = ({ children }: PropsWithChildren) => {
             }
           },
           secondary: {
-            label: I18n.t("appFeedback.bottomSheet.discard"),
+            label: t("appFeedback.bottomSheet.discard"),
             onPress: () => {
-              show(I18n.t("appFeedback.toast.negativeFeedback"));
+              show(t("appFeedback.toast.negativeFeedback"));
               setTopic(undefined);
               dismiss();
             }
@@ -75,18 +76,18 @@ export const AppFeedbackProvider = ({ children }: PropsWithChildren) => {
     }
     if (appFeedbackEnabled) {
       Alert.alert(
-        I18n.t("appFeedback.alert.title"),
-        I18n.t("appFeedback.alert.description"),
+        t("appFeedback.alert.title"),
+        tolgee.t("appFeedback.alert.description"),
         [
           {
-            text: I18n.t("appFeedback.alert.discard"),
+            text: t("appFeedback.alert.discard"),
             onPress: () => {
               dispatch(appReviewNegativeFeedback(topic));
               present();
             }
           },
           {
-            text: I18n.t("appFeedback.alert.continue"),
+            text: t("appFeedback.alert.continue"),
             style: "default",
             onPress: () => {
               requestAppReview();
@@ -99,6 +100,7 @@ export const AppFeedbackProvider = ({ children }: PropsWithChildren) => {
     } else {
       requestAppReview();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [appFeedbackEnabled, canAskFeedback, dispatch, present, topic]);
 
   return (

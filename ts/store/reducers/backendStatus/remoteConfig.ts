@@ -577,13 +577,7 @@ export const appFeedbackUriConfigSelector = (topic: TopicKeys = "general") =>
   );
 
 export const appFeedbackEnabledSelector = (state: GlobalState) =>
-  pipe(state, remoteConfigSelector, remoteConfig =>
-    isPropertyWithMinAppVersionEnabled({
-      remoteConfig,
-      mainLocalFlag: true,
-      configPropertyName: "app_feedback"
-    })
-  );
+  pipe(state, remoteConfigSelector, remoteConfig => true);
 
 /**
  * This selector is used to know if IOMarkdown is enabled on Messages and Services

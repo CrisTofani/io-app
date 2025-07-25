@@ -12,6 +12,16 @@ import { PersistGate } from "redux-persist/integration/react";
 import * as Sentry from "@sentry/react-native";
 import { ErrorEvent, TransactionEvent } from "@sentry/core";
 import { JSX } from "react";
+import {
+  Tolgee,
+  DevTools,
+  TolgeeProvider,
+  FormatSimple,
+  BackendFetch
+} from "@tolgee/react";
+import it from "../locales/it/it.json";
+import en from "../locales/en/en.json";
+import de from "../locales/de/de.json";
 import RootContainer from "./RootContainer";
 import { persistor, store } from "./boot/configureStoreAndPersistor";
 import { LightModalProvider } from "./components/ui/LightModal";
@@ -108,6 +118,31 @@ Sentry.init({
   sampleRate: 1
 });
 
+export const tolgee = Tolgee()
+  .use(DevTools())
+  .use(FormatSimple())
+  .use(
+    BackendFetch({
+      prefix: "https://cdn.tolg.ee/12b2674482ac4be243e8c786b2f6df96"
+    })
+  )
+  .init({
+    language: "it",
+    availableLanguages: ["it", "en", "de"],
+    fallbackLanguage: "it",
+
+    // for development
+    apiUrl: "https://app.tolgee.io",
+    apiKey: "tgpak_gfpxe3dwhbtdgnjvgjudi2tboezhaodbm5thgy3pgnzge",
+
+    // for production
+    staticData: {
+      en,
+      it,
+      de
+    }
+  });
+
 // Infer the `RootState` and `AppDispatch` types from the store itself export
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
@@ -117,31 +152,33 @@ export type AppDispatch = typeof store.dispatch;
  * @constructor
  */
 const App = (): JSX.Element => (
-  <GestureHandlerRootView style={{ flex: 1 }}>
-    <SafeAreaProvider>
-      <IODSExperimentalContextProvider>
-        <IONewTypefaceContextProvider>
-          <IOThemeContextProvider theme={"light"}>
-            <ToastProvider>
-              <Provider store={store}>
-                <PersistGate loading={undefined} persistor={persistor}>
-                  <BottomSheetModalProvider>
-                    <LightModalProvider>
-                      <AppFeedbackProvider>
-                        <StatusMessages>
-                          <RootContainer store={store} />
-                        </StatusMessages>
-                      </AppFeedbackProvider>
-                    </LightModalProvider>
-                  </BottomSheetModalProvider>
-                </PersistGate>
-              </Provider>
-            </ToastProvider>
-          </IOThemeContextProvider>
-        </IONewTypefaceContextProvider>
-      </IODSExperimentalContextProvider>
-    </SafeAreaProvider>
-  </GestureHandlerRootView>
+  <TolgeeProvider tolgee={tolgee}>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <SafeAreaProvider>
+        <IODSExperimentalContextProvider>
+          <IONewTypefaceContextProvider>
+            <IOThemeContextProvider theme={"light"}>
+              <ToastProvider>
+                <Provider store={store}>
+                  <PersistGate loading={undefined} persistor={persistor}>
+                    <BottomSheetModalProvider>
+                      <LightModalProvider>
+                        <AppFeedbackProvider>
+                          <StatusMessages>
+                            <RootContainer store={store} />
+                          </StatusMessages>
+                        </AppFeedbackProvider>
+                      </LightModalProvider>
+                    </BottomSheetModalProvider>
+                  </PersistGate>
+                </Provider>
+              </ToastProvider>
+            </IOThemeContextProvider>
+          </IONewTypefaceContextProvider>
+        </IODSExperimentalContextProvider>
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
+  </TolgeeProvider>
 );
 
 /**

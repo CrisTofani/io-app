@@ -2978,6 +2978,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.27.6":
+  version: 7.27.6
+  resolution: "@babel/runtime@npm:7.27.6"
+  checksum: 3f7b879df1823c0926bd5dbc941c62f5d60faa790c1aab9758c04799e1f04ee8d93553be9ec059d4e5882f19fe03cbe8933ee4f46212dced0f6d8205992c9c9a
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.0.0, @babel/template@npm:^7.24.7, @babel/template@npm:^7.3.3, @babel/template@npm:^7.8.6":
   version: 7.24.7
   resolution: "@babel/template@npm:7.24.7"
@@ -5329,6 +5336,44 @@ __metadata:
     traverse: ^0.6.8
     unified: ^9.2.2
   checksum: 5f477911a93f4d3a5ce868b85f44fed24bbf6c09b5e82b475c2c26c2303f15e3359d883a1813239a93caa2059ab9b502343ec1984318429e823120cbe8e410c4
+  languageName: node
+  linkType: hard
+
+"@tolgee/core@npm:6.2.6":
+  version: 6.2.6
+  resolution: "@tolgee/core@npm:6.2.6"
+  checksum: b6fcd2b373b9094b409cc68a79e5b1983656f3f301fd1a98d188e19beeb69e03afad869cec1a49d8ef4175bb3268738566c38e7589124ba58285c2c0435ccaa1
+  languageName: node
+  linkType: hard
+
+"@tolgee/i18next@npm:^6.2.6":
+  version: 6.2.6
+  resolution: "@tolgee/i18next@npm:6.2.6"
+  dependencies:
+    "@tolgee/web": 6.2.6
+  peerDependencies:
+    i18next: "*"
+  checksum: 331613c073b0785858f2d1b5738853e10efad18edb69c248599c7c7ae0e5fa15faa216fba5db66837eb9fc0bc7590f7956a2a773647a1a3384a41102f2a54505
+  languageName: node
+  linkType: hard
+
+"@tolgee/react@npm:^6.2.6":
+  version: 6.2.6
+  resolution: "@tolgee/react@npm:6.2.6"
+  dependencies:
+    "@tolgee/web": 6.2.6
+  peerDependencies:
+    react: ^16.14.0 || ^17.0.1 || ^18.1.0 || ^19
+  checksum: beda548c99ed6abb531210e2e7c95107dc519facff51a317b50d3a849abe17128dcc9a268303fec7e0d7f0eb8e57af9fbdb6d1df88cf42aa43b9ed93b266bcb5
+  languageName: node
+  linkType: hard
+
+"@tolgee/web@npm:6.2.6":
+  version: 6.2.6
+  resolution: "@tolgee/web@npm:6.2.6"
+  dependencies:
+    "@tolgee/core": 6.2.6
+  checksum: fb25c74a8a0d60c9d51f2a2e34e81ece6f23a2759e4b7c81002b4b8d31dbd8ca7666e3f1e7845f3e16a9484c89fc66af62e9a9d36c54330e5933198047e2738e
   languageName: node
   linkType: hard
 
@@ -11949,6 +11994,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"html-parse-stringify@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "html-parse-stringify@npm:3.0.1"
+  dependencies:
+    void-elements: 3.1.0
+  checksum: 334fdebd4b5c355dba8e95284cead6f62bf865a2359da2759b039db58c805646350016d2017875718bc3c4b9bf81a0d11be5ee0cf4774a3a5a7b97cde21cfd67
+  languageName: node
+  linkType: hard
+
 "html-void-elements@npm:^2.0.0":
   version: 2.0.0
   resolution: "html-void-elements@npm:2.0.0"
@@ -12112,6 +12166,29 @@ __metadata:
   version: 3.0.11
   resolution: "i18n-js@npm:3.0.11"
   checksum: 2fe94bf00f507068a3e9ac632a93d10d9aa7d254bbec33108311f0ee992a9d262fc68b4e48fd14d5fcffc539f6e58d78bfff24252266ebfd493df09618b440f4
+  languageName: node
+  linkType: hard
+
+"i18next-icu@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "i18next-icu@npm:2.3.0"
+  peerDependencies:
+    intl-messageformat: ^10.3.3
+  checksum: da5cbf1fed795921dc903f8bd9129b5ad8ef4c5acd9cdea00c096a2dd4fafc8007cdc0501c11db5f86c7bfda8cde71896f8a4321129ead3557196a76fd4ad2d0
+  languageName: node
+  linkType: hard
+
+"i18next@npm:^25.3.2":
+  version: 25.3.2
+  resolution: "i18next@npm:25.3.2"
+  dependencies:
+    "@babel/runtime": ^7.27.6
+  peerDependencies:
+    typescript: ^5
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: e0ee33b6d7f1e8ce3aa2a6a139e673686a5651903fdfeec47d10b32737342045be6607da73020f94b07edcee9173d940fe4e8062d1e2183bbf482141624bda3e
   languageName: node
   linkType: hard
 
@@ -12987,6 +13064,8 @@ __metadata:
     "@testing-library/jest-native": ^3.4.3
     "@testing-library/react-native": ^13.2.0
     "@textlint/markdown-to-ast": ^14.0.4
+    "@tolgee/i18next": ^6.2.6
+    "@tolgee/react": ^6.2.6
     "@tsconfig/react-native": ^3.0.0
     "@types/chalk": ^2.2.0
     "@types/color": ^3.0.0
@@ -13041,6 +13120,8 @@ __metadata:
     hastscript: ^7.0.2
     hoist-non-react-statics: ^3.0.1
     husky: ^8.0.0
+    i18next: ^25.3.2
+    i18next-icu: ^2.3.0
     io-ts: ^2.2.16
     jail-monkey: ^2.8.3
     jest: ^29.7.0
@@ -13061,6 +13142,7 @@ __metadata:
     postinstall-postinstall: ^1.0.0
     prettier: 2.8.8
     react: 19.0.0
+    react-i18next: ^15.6.0
     react-native: 0.78.2
     react-native-android-open-settings: ^1.3.0
     react-native-background-timer: 2.1.1
@@ -17384,6 +17466,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-i18next@npm:^15.6.0":
+  version: 15.6.0
+  resolution: "react-i18next@npm:15.6.0"
+  dependencies:
+    "@babel/runtime": ^7.27.6
+    html-parse-stringify: ^3.0.1
+  peerDependencies:
+    i18next: ">= 23.2.3"
+    react: ">= 16.8.0"
+    typescript: ^5
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native:
+      optional: true
+    typescript:
+      optional: true
+  checksum: e18b0827adfe1521b3e640c83f4ffcec6e452413879ff0620913f03506b36d35d7f69e3a13bc5b767264d565467cd0048e02c728f79509d8d38bf84640eb3016
+  languageName: node
+  linkType: hard
+
 "react-is@npm:19.0.0":
   version: 19.0.0
   resolution: "react-is@npm:19.0.0"
@@ -21185,6 +21288,13 @@ __metadata:
   bin:
     vm2: bin/vm2
   checksum: fc6cf553134145cd7bb5246985bf242b056e3fb5ea71e2eef6710b2a5d6c6119cc6bc960435ff62480ee82efb43369be8f4db07b6690916ae7d3b2e714f395d8
+  languageName: node
+  linkType: hard
+
+"void-elements@npm:3.1.0":
+  version: 3.1.0
+  resolution: "void-elements@npm:3.1.0"
+  checksum: 0390f818107fa8fce55bb0a5c3f661056001c1d5a2a48c28d582d4d847347c2ab5b7f8272314cac58acf62345126b6b09bea623a185935f6b1c3bbce0dfd7f7f
   languageName: node
   linkType: hard
 
