@@ -1,0 +1,19 @@
+{  
+"appFeedback": {
+    "toast": {
+      "negativeFeedback": "Puoi lasciare i tuoi suggerimenti in ogni momento, visitando la sezione Impostazioni"
+    },
+    "alert": {
+      "title": "Ti piace l'app IO?",
+      "description": "Useremo la tua risposta per migliorare i nostri servizi.",
+      "continue": "Sì, mi piace",
+      "discard": "Non mi piace"
+    },
+    "bottomSheet": {
+      "title": "Ti va di dirci perché?",
+      "description": "Raccontaci cosa è andato storto nella tua esperienza con IO: useremo i tuoi suggerimenti per rendere l'app ancora più efficiente.",
+      "continue": "Dai un suggerimento",
+      "discard": "Non ora"
+    }
+  }
+}
