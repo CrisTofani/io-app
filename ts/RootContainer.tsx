@@ -15,6 +15,7 @@ import PagoPATestIndicatorOverlay from "./components/PagoPATestIndicatorOverlay"
 import { LightModalRoot } from "./components/ui/LightModal";
 import { configurePushNotifications } from "./features/pushNotifications/utils/configurePushNotification";
 import { setLocale } from "./i18n";
+import I18n from "./locales/I18Next";
 import { IONavigationContainer } from "./navigation/AppStackNavigator";
 import RootModal from "./screens/modal/RootModal";
 import { applicationChangeState } from "./store/actions/application";
@@ -88,6 +89,7 @@ class RootContainer extends PureComponent<Props> {
       this.props.preferredLanguage,
       O.map(l => {
         setLocale(l);
+        void I18n.changeLanguage(l);
       })
     );
 

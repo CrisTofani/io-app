@@ -9,7 +9,7 @@ import {
 } from "react";
 import { Alert } from "react-native";
 import { useIOBottomSheetModal } from "../../../utils/hooks/bottomSheet";
-import I18n from "../../../i18n";
+import I18n from "../../../locales/I18Next";
 import {
   appReviewNegativeFeedback,
   appReviewPositiveFeedback,

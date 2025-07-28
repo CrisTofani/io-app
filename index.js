@@ -21,6 +21,7 @@ import {
 import App from "./ts/App";
 import { isMixpanelInstanceInitialized, mixpanelTrack } from "./ts/mixpanel";
 import { name as appName } from "./app.json";
+import "./ts/locales/I18Next";
 
 const errorHandler = (e, isFatal) => {
   if (isFatal) {
