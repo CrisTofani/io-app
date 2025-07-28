@@ -24,7 +24,15 @@
       "Friday",
       "Saturday"
     ],
-    "abbr_day_names": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    "abbr_day_names": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
     "month_names": [
       " ",
       "January",
@@ -55,7 +63,10 @@
       "Nov",
       "Dec"
     ],
-    "meridian": ["am", "pm"],
+    "meridian": [
+      "am",
+      "pm"
+    ],
     "time": {
       "minutes": {
         "zero": "0 minutes",
@@ -95,16 +106,16 @@
     },
     "password": "Password",
     "username": "Username",
-    "unknown": "unknown",
     "disclaimer_beta": "If you're having trouble signing in, please let us know!",
+    "unknown": "unknown",
     "sectionStatus": {
       "moreInfo": "Want to know more?"
     },
     "accessibility": {
       "minusSymbol": "minus",
-      "switchLabel": "Select to activate",
       "reload": "Reload",
       "search": "Search",
+      "switchLabel": "Select to activate",
       "inputLabel": "{{header}}, Header",
       "textField": "{{inputLabel}}, text field",
       "description": "Description",
@@ -159,13 +170,13 @@
       "fullFormatFullMonthLiteral": "%d %B %Y",
       "fullMonthLiteral": "%B",
       "fullMonthLiteralWithYear": "%B %Y",
-      "numericMonthYear": "%m/%Y",
-      "shortNumericMonthYear": "%m/%-y",
       "timeFormat": "%H:%M",
       "timeFormatWithTimezone": "%H:%M:%S (%z)",
       "dayMonthWithTime": "%d %b, %H:%M",
       "dayMonthWithoutTime": "%d %b",
       "dayFullMonth": "%d %B",
+      "numericMonthYear": "%m/%Y",
+      "shortNumericMonthYear": "%m/%-y",
       "monthYear": "MMMM YYYY",
       "dayAndMonth": "dddd D MMMM",
       "dayMonth": "MM/DD",
@@ -282,7 +293,7 @@
       "title": "Ti va di dirci perché?",
       "description": "Raccontaci cosa è andato storto nella tua esperienza con IO: useremo i tuoi suggerimenti per rendere l'app ancora più efficiente.",
       "continue": "Dai un suggerimento",
-      "discard": "Non ora"
+      "discard": "Not at the moment"
     }
   },
   "rooted": {
@@ -630,6 +641,9 @@
           "switchTitle": "Active session login"
         }
       },
+      "trial": {
+        "titleSection": "Join a trial"
+      },
       "experimentalEnvironment": "Experimental interface",
       "newScanSection": "New 'Scan' feature",
       "sessionRefresh": "Activate Session Refresh",
@@ -637,9 +651,6 @@
       "backendVersion": "Backend Version",
       "debugMode": "Debug mode",
       "designSystem": "Design System",
-      "trial": {
-        "titleSection": "Join a trial"
-      },
       "addTestCard": {
         "title": "Add test card"
       },
@@ -1150,9 +1161,9 @@
       "contextualHelpContent": "**In the log in page, you are asked to enter your password.** Your password is the alphanumeric code that you set when you activated your SPID identity.  \nIf you don’t remember it, please select password recovery to start the related procedure with your specific Identity Provider.\n",
       "contextualHelpTitle2": "Need support on the login by SPID?",
       "openTicket": "Create a ticket",
-      "recoverUsername": "Recover the username",
       "recoverDescription": "If you're missing your password, you can recover it by tapping on the following button.",
       "dualRecoverDescription": "If you're missing your credentials, you can recover them by tapping on the following buttons.",
+      "recoverUsername": "Recover the username",
       "recoverPassword": "Recover the password",
       "poste_id": {
         "bottom_sheet": {
@@ -1297,8 +1308,8 @@
       "title": "We have sent you an email",
       "subtitle": "To confirm your address, follow the instructions we have sent to",
       "link": "Change email address",
-      "buttonlabelsent": "Email sent!",
       "countdowntext": "Request new email in",
+      "buttonlabelsent": "Email sent!",
       "buttonlabelsentagain": "Send email again",
       "toast": "Done! Check your mailbox."
     },
@@ -1531,16 +1542,16 @@
       }
     },
     "confirm": {
+      "a11y": {
+        "announce": "Payment Summary"
+      },
       "totalAmount": "Totale da pagare",
       "pay": "Paga",
       "payWith": "Paga con",
       "fee": "Commissione",
       "feeAppliedBy": "Applicata da",
       "editButton": "Modifica",
-      "termsAndConditions": "By continuing, you accept the [Terms and Conditions of Use](https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/) and confirm that you have read the [Privacy Policy](https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/) of {{pspName}}.",
-      "a11y": {
-        "announce": "Payment Summary"
-      }
+      "termsAndConditions": "By continuing, you accept the [Terms and Conditions of Use](https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/) and confirm that you have read the [Privacy Policy](https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/) of {{pspName}}."
     }
   },
   "wallet": {
@@ -1930,6 +1941,11 @@
       "header": "Confirmation code",
       "info": "Insert the code that was sent by text to your mobile phone"
     },
+    "transactionDetails": "Transaction details",
+    "transactionFullReason": "Full reason",
+    "detailsTransaction": {
+      "contextualHelpContent": "**Here you can view a summary of your transaction details.** This transaction may have taken place in the IO app, or in another website using PagoPa as payment platform.  \nPlease remember that if you have completed payments with PagoPa as authenticated user before installing the IO app, you will find here the details of those transactions as well.\n"
+    },
     "saveCard": {
       "contextualHelpTitle": "Save a card to IO",
       "contextualHelpContent": "**You are saving a new payment method**, which will then be displayed among your saved methods in the Wallet section. You can always edit or cancel a payment method in a second moment, by selecting it from the list.\n",
@@ -2029,6 +2045,9 @@
       }
     },
     "firstTransactionSummary": {
+      "a11y": {
+        "announce": "Notice Summary"
+      },
       "loading": "Recupero delle informazioni in corso",
       "title": "Payment information",
       "amount": "Amount",
@@ -2045,9 +2064,9 @@
       "date": "Date and Time",
       "iuv": "IUV code",
       "entityCode": "Payee Fiscal Code",
+      "updatedAmount": "Updated amount",
       "fee": "Fee",
       "idTransaction": "Transaction identification code",
-      "updatedAmount": "Updated amount",
       "amountInfo": {
         "title": "Is the amount different from the one on the pagoPA notice?",
         "message": "When the amount changes, it means it has been updated automatically. \n\nIf it is higher, there may be interest, penalties, or notification costs.\n\nIf the pagoPA notice concerns a legally significant communication, the increase in the amount to be paid may depend on various factors, such as:\n- receiving the communication via registered mail (as printing and delivery costs may be charged to the recipient);\n- the number of delivery attempts.\nFor further details, contact the Payee.",
@@ -2060,10 +2079,10 @@
         "errorCode": "Codice errore",
         "messageId": "ID messaggio",
         "copyToClipboard": "Copia dati per l'assistenza"
-      },
-      "a11y": {
-        "announce": "Notice Summary"
       }
+    },
+    "errorTransaction": {
+      "submitBugText": "If you can't solve the problem, please let us know with the '?' icon at the top right. Thank you!"
     },
     "insertManually": {
       "header": "Enter notice data",
@@ -2076,14 +2095,6 @@
       "proceed": "Proceed with the transaction",
       "contextualHelpTitle": "Manually insert notice",
       "contextualHelpContent": "**You can proceed with the payment of a notice by entering the data found in the notice**: the Notice Code and the tax code of the creditor.\nMake sure that the notice supports payment through pagoPA, the payment platform for the Public Administration."
-    },
-    "errorTransaction": {
-      "submitBugText": "If you can't solve the problem, please let us know with the '?' icon at the top right. Thank you!"
-    },
-    "transactionDetails": "Transaction details",
-    "transactionFullReason": "Full reason",
-    "detailsTransaction": {
-      "contextualHelpContent": "**Here you can view a summary of your transaction details.** This transaction may have taken place in the IO app, or in another website using PagoPa as payment platform.  \nPlease remember that if you have completed payments with PagoPa as authenticated user before installing the IO app, you will find here the details of those transactions as well.\n"
     },
     "total": "Total",
     "amount": "Amount €",
@@ -2322,6 +2333,10 @@
         "title": "Authorization declined",
         "description": "You have probably reached your card limit. Check with your bank before trying again."
       },
+      "code15": {
+        "title": "Enable in-app payments first",
+        "description": "Before trying again, select the method in your Wallet and turn on the 'in-app payments' feature."
+      },
       "code18": {
         "title": "An unexpected error has occurred",
         "description": "If this problem persists, please contact support."
@@ -2329,10 +2344,6 @@
       "code19": {
         "title": "Authorization declined",
         "description": "You may have removed pagoPA from your PayPal automatic payments. Delete your PayPal account from the Wallet, add it back and try to make the payment again."
-      },
-      "code15": {
-        "title": "Enable in-app payments first",
-        "description": "Before trying again, select the method in your Wallet and turn on the 'in-app payments' feature."
       },
       "addCreditCard": {
         "success": {
@@ -3497,8 +3508,8 @@
     },
     "bpd": {
       "title": "Cashback",
-      "name": "Cashback",
       "description": "Get a refund on in-store purchases when paying with this method",
+      "name": "Cashback",
       "cta": {
         "activeBonus": "Request cashback"
       }
@@ -3652,11 +3663,11 @@
           "title": "Carta Giovani Nazionale",
           "eyca": "EYCA card",
           "eycaCircuit": "EYCA circuit",
+          "eycaNumber": "Card number",
           "eycaPending": "We're linking your Carta Giovani Nazionale to a EYCA Number.",
           "eycaError": "We had some issues with EYCA's systems.",
           "eycaBottomSheetTitle": "What is EYCA?",
           "eycaDescription": "Until 31 years old, your **Carta Giovani Nazionale is a member of the EYCA circuit**(European Youth Card Association).\n\n Use the Card at partners to enjoy cultural activities, shopping, transport, restaurants and accommodation in European countries partecipating in the circuit.",
-          "eycaNumber": "Card number",
           "badge": {
             "active": "Active",
             "revoked": "Revoked",
@@ -3974,10 +3985,6 @@
             "title": "The signature failed",
             "subTitle": "The institution will contact you in the next few days to get you to sign again. If this doesn't happen, please e-mail"
           },
-          "cancelled": {
-            "title": "The signature request has been cancelled",
-            "subTitle": "For further support, write to"
-          },
           "signing": {
             "title": "The signature failed",
             "subTitle": "Due to a technical problem, the signature failed. If the problem persists, contact support."
@@ -3985,6 +3992,10 @@
           "wrongUser": {
             "title": "You cannot sign these documents",
             "subTitle": "The signature request is not associated with your Tax Code."
+          },
+          "cancelled": {
+            "title": "The signature request has been cancelled",
+            "subTitle": "For further support, write to"
           }
         }
       },
@@ -5352,12 +5363,17 @@
       "identityProvider": "Identity Provider",
       "navigationData": "In-app navigation data",
       "navigationDataValue": "Such as the the last screen or message displayed in IO.",
+      "devicePerformance": "Device performance",
+      "devicePerformanceDataAndroid": "Memory and battery level",
+      "devicePerformanceDataiOS": "Memory ({{storage}}) and battery level",
       "stock": "Payment Notice details",
       "stockValue": "Including the error you just received",
       "card": "Payment methods details",
       "cardValue": "Number (encrypted), expiration, network",
       "fci": "Signature request identifier",
       "fciValue": "To check the request in progress",
+      "prominentDisclosure": "Access to the device gallery",
+      "prominentDisclosureData": "To upload photos and screenshots",
       "header": "Submit a request",
       "listTitle": "Ongoing requests",
       "title": "Do you give us your consent?",
@@ -5365,11 +5381,6 @@
       "privacyLink": "Read the privacy policy",
       "body": "In order to respond to the support request, we need access to some personal data. If you deny consent, you’ll have to send us a generic request via e-mail.",
       "listHeader": "If you consent, we'll access this data:",
-      "devicePerformance": "Device performance",
-      "devicePerformanceDataAndroid": "Memory and battery level",
-      "devicePerformanceDataiOS": "Memory ({{storage}}) and battery level",
-      "prominentDisclosure": "Access to the device gallery",
-      "prominentDisclosureData": "To upload photos and screenshots",
       "cta": {
         "allow": "Agree",
         "denies": "Deny"
@@ -5436,15 +5447,15 @@
         }
       },
       "renew": {
+        "alert": {
+          "title": "Vuoi generare un nuovo codice ID Pay?",
+          "body": "Il codice attualmente in uso verrà sovrascritto."
+        },
         "screen": {
           "header": "Codice ID Pay",
           "body": "Il codice per autorizzare i pagamenti effettuati con la tua carta d’identità elettronica",
           "link": "Come funziona?",
           "generateCTA": "Genera un nuovo codice"
-        },
-        "alert": {
-          "title": "Vuoi generare un nuovo codice ID Pay?",
-          "body": "Il codice attualmente in uso verrà sovrascritto."
         }
       }
     },
@@ -5539,12 +5550,12 @@
         }
       },
       "discountDetails": {
-        "authorizeButton": "Autorizza un pagamento",
-        "addExpenseButton": "Aggiungi spesa",
         "bottomSheetOptions": {
           "scanQr": "Inquadra un codice QR",
           "generateBarcode": "Crea un codice sconto"
         },
+        "authorizeButton": "Autorizza un pagamento",
+        "addExpenseButton": "Aggiungi spesa",
         "IDPayCode": {
           "banner": {
             "title": "Paga con la tua carta d’identità elettronica",
@@ -5772,10 +5783,10 @@
         "emptyValueError": "Select an option to continue"
       },
       "enableMessages": {
-        "cancelAction": "Cancel",
-        "subtitle": "Activate the possibility to contact you in the app to receive updates on the {{initiativeName}}. \nThis step is necessary to proceed with the request.",
         "title": "Activate messages",
-        "confirmAction": "Ok, active"
+        "subtitle": "Activate the possibility to contact you in the app to receive updates on the {{initiativeName}}. \nThis step is necessary to proceed with the request.",
+        "confirmAction": "Ok, active",
+        "cancelAction": "Cancel"
       },
       "enableNotification": {
         "title": "Non perderti l’esito delle tue richieste",
@@ -5925,6 +5936,10 @@
       "button": {
         "continue": "Rimuovi"
       },
+      "removeAlert": {
+        "title": "Do you want to delete {{initiativeName}} from the wallet?",
+        "content": "The bonus will be removed."
+      },
       "modal": {
         "title": "Rimuovere {{initiativeName}}?",
         "content": "L’operazione è irreversibile e ha effetto su tutti i canali. Non potrai più utilizzare i fondi a disposizione."
@@ -5938,10 +5953,6 @@
         "title": "C’è un problema sui nostri sistemi",
         "content": "Ci scusiamo per il disagio.\n Ti invitiamo a riprovare più tardi.",
         "button": "Chiudi"
-      },
-      "removeAlert": {
-        "title": "Do you want to delete {{initiativeName}} from the wallet?",
-        "content": "The bonus will be removed."
       }
     },
     "payment": {
