@@ -23,7 +23,15 @@
       "Freitag",
       "Samstag"
     ],
-    "abbr_day_names": ["So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."],
+    "abbr_day_names": [
+      "So.",
+      "Mo.",
+      "Di.",
+      "Mi.",
+      "Do.",
+      "Fr.",
+      "Sa."
+    ],
     "month_names": [
       " ",
       "Januar",
@@ -54,7 +62,10 @@
       "Nov.",
       "Dez."
     ],
-    "meridian": ["am", "pm"]
+    "meridian": [
+      "am",
+      "pm"
+    ]
   },
   "global": {
     "why": "Warum?",
@@ -147,8 +158,8 @@
       "dayMonthWithTime": "%d %b, %H:%M",
       "dayMonthWithoutTime": "%d %b",
       "dayFullMonth": "%d %B",
-      "numericMonthYear": "%m/%Y",
-      "shortNumericMonthYear": "%m/%-y",
+      "numericMonthYear": "%m\/%Y",
+      "shortNumericMonthYear": "%m\/%-y",
       "monthYear": "MMMM YYYY",
       "dayAndMonth": "dddd D MMMM",
       "dayMonth": "DD.MM.",
@@ -354,7 +365,7 @@
     },
     "main": {
       "title": "Profil",
-      "logout": "Abmelden/Beenden",
+      "logout": "Abmelden\/Beenden",
       "forgetCurrentSession": "Aktuelle Sitzung löschen",
       "clearAsyncStorage": "Inhalt von AsyncStorage löschen",
       "dumpAsyncStorage": "AsyncStorage-Inhalt herunterladen",
@@ -497,7 +508,7 @@
             "gdpr": {
               "description": {
                 "one": "Wir arbeiten nur mit Lieferanten zusammen, die Daten ",
-                "two": "transparent und sicher verarbeiten."
+                "other": ""
               },
               "cta": "Wer sind die Lieferanten?"
             },
@@ -667,7 +678,7 @@
     "title": "Karte berühren",
     "layCardMessageHeader": "Halte deine elektronische Identitätskarte für einige Sekunden auf die Rückseite deines Telefons.",
     "layCardMessageFooter": "Wenn du nicht genau weißt, wo sich der NFC-Sensor befindet, halte deine Karte an verschiedene Stellen und warte ein paar Sekunden, bis du einen Ton hörst.",
-    "booking_url": "https://www.prenotazionicie.interno.gov.it/?locale=de"
+    "booking_url": "https:\/\/www.prenotazionicie.interno.gov.it\/?locale=de"
   },
   "spid": {
     "login": "LOGIN",
@@ -900,7 +911,7 @@
         "subtitleCTA": "Wo finde ich ihn?",
         "bottomSheetCTA": "Hast du deine PIN vergessen?",
         "contextualHelpTitle": "Wo kann ich meine PIN und meinen PUK finden?",
-        "contextualHelpCTA": "Hast du deine PIN / deinen PUK vergessen?"
+        "contextualHelpCTA": "Hast du deine PIN \/ deinen PUK vergessen?"
       },
       "pinTempLocked": {
         "title": "Karte vorübergehend gesperrt"
@@ -1099,8 +1110,8 @@
     "validate": {
       "title": "Erinnere dich, deine E-Mail-Adresse zu bestätigen!",
       "header": "E-Mail-Bestätigung",
-      "content1": "Wir haben eine E-Mail an <b>{{E-Mail}}</b> mit einem Link zur Bestätigung gesendet: tippe einfach auf diesen Link.<br/>Solange deine E-Mail-Adresse nicht bestätigt ist, werden einige Funktionen der App (Zahlungen, Nachrichtenweiterleitung per E-Mail usw.) nicht nutzbar sein, aber du kannst einige andere Funktionen trotzdem nutzen (z. B. Dienste, Nachrichten usw.)",
-      "content2": "Für einige Funktionen von IO musst du deine E-Mail-Adresse bestätigen. <br/> Wir haben eine E-Mail an <b>{{email}}</b> gesendet: Öffne deine E-Mails und tippe auf den Link.",
+      "content1": "Wir haben eine E-Mail an <b>{{E-Mail}}<\/b> mit einem Link zur Bestätigung gesendet: tippe einfach auf diesen Link.<br\/>Solange deine E-Mail-Adresse nicht bestätigt ist, werden einige Funktionen der App (Zahlungen, Nachrichtenweiterleitung per E-Mail usw.) nicht nutzbar sein, aber du kannst einige andere Funktionen trotzdem nutzen (z. B. Dienste, Nachrichten usw.)",
+      "content2": "Für einige Funktionen von IO musst du deine E-Mail-Adresse bestätigen. <br\/> Wir haben eine E-Mail an <b>{{email}}<\/b> gesendet: Öffne deine E-Mails und tippe auf den Link.",
       "cta": "Sende eine neue E-Mail zur Bestätigung",
       "sent": "E-Mail gesendet",
       "send_validation_ok": "E-Mail zur Bestätigung gesendet",
@@ -1344,16 +1355,16 @@
       }
     },
     "confirm": {
+      "a11y": {
+        "announce": "Zusammenfassung Ihrer Zahlung"
+      },
       "totalAmount": "Zu zahlender Gesamtbetrag",
       "pay": "Zahle ",
       "payWith": "Zahle mit ",
       "fee": "Kommission ",
       "feeAppliedBy": "Angewandt von: ",
       "editButton": "Ändern",
-      "termsAndConditions": "Mit dem Fortfahren akzeptieren Sie die [Nutzungsbedingungen](https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/) und bestätigen, die [Datenschutzerklärung](https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/) von {{pspName}} gelesen zu haben.",
-      "a11y": {
-        "announce": "Zusammenfassung Ihrer Zahlung"
-      }
+      "termsAndConditions": "Mit dem Fortfahren akzeptieren Sie die [Nutzungsbedingungen](https:\/\/www.pagopa.gov.it\/it\/prestatori-servizi-di-pagamento\/elenco-PSP-attivi\/) und bestätigen, die [Datenschutzerklärung](https:\/\/www.pagopa.gov.it\/it\/prestatori-servizi-di-pagamento\/elenco-PSP-attivi\/) von {{pspName}} gelesen zu haben."
     }
   },
   "wallet": {
@@ -1631,7 +1642,6 @@
       "outcome": {
         "SUCCESS": {
           "title": "Die Karte wurde hinzugefügt!",
-          "subtitle": "",
           "primaryAction": "Details anzeigen",
           "secondaryAction": "Weiter"
         },
@@ -1657,7 +1667,6 @@
         },
         "CANCELED_BY_USER": {
           "title": "Der Vorgang wurde abgebrochen",
-          "subtitle": "",
           "primaryAction": "Schließen"
         },
         "INVALID_SESSION": {
@@ -1667,7 +1676,6 @@
         },
         "ALREADY_ONBOARDED": {
           "title": "Du hast diese Zahlungsmethode bereits hinzugefügt",
-          "subtitle": "",
           "primaryAction": "Schließen"
         },
         "BPAY_NOT_FOUND": {
@@ -1839,6 +1847,9 @@
       }
     },
     "firstTransactionSummary": {
+      "a11y": {
+        "announce": "Riepilogo dati avviso"
+      },
       "loading": "Informationen werden abgerufen",
       "title": "Zahlungsdetails",
       "amount": "Betrag",
@@ -1869,9 +1880,6 @@
         "errorCode": "Fehlercode",
         "messageId": "ID der Nachricht",
         "copyToClipboard": "Daten für die Assistenz kopieren"
-      },
-      "a11y": {
-        "announce": "Riepilogo dati avviso"
       }
     },
     "errorTransaction": {
@@ -1909,7 +1917,7 @@
     "noTransactionsInTransactionsScreen": "Du hast mit dieser Zahlungsmethode noch nie über IO oder pagoPA bezahlt. In dieser Liste siehst du nur die Transaktionen, die mit dieser Zahlungsmethode durchgeführt wurden.",
     "payNotice": "Zahlungsmitteilung bezahlen",
     "latestTransactions": "Deine Transaktionen",
-    "creditDebitCards": "Kredit-/Debitkarten",
+    "creditDebitCards": "Kredit-\/Debitkarten",
     "addPaymentMethodTitle": "Zahlungsmethode hinzufügen",
     "continue": "Weiter zur Zahlung",
     "backToPayments": "Zurück zu den Zahlungen",
@@ -1990,7 +1998,7 @@
       "values": {
         "holder": "Max Mustermann",
         "pan": "0000 0000 0000 0000",
-        "expirationDate": "mm/yy",
+        "expirationDate": "mm\/yy",
         "securityCode": "•••",
         "securityCode4D": "••••"
       },
@@ -2412,7 +2420,8 @@
     },
     "contextualHelpTitle": "Mitteilungen verwenden",
     "counting": {
-      "one": "Du hast eine Mitteilung"
+      "one": "Du hast eine Mitteilung",
+      "other": ""
     },
     "tab": {
       "inbox": "Erhalten",
@@ -2922,13 +2931,13 @@
           "filter": "Filtern"
         },
         "categoriesList": {
+          "a11y": "{{name}}, {{count}} Neue Möglichkeiten gefunden",
           "title": "Wähle eine Kategorie und entdecke Rabatte und Ermäßigungen",
           "bottomSheet": {
             "cta": "Wie sind die Kategorien angeordnet?",
             "title": "Wie sind die Kategorien angeordnet?",
             "content": "Um deine Suche zu erleichtern und deine Erfahrung zu verbessern, haben wir die Kategorien nach der Häufigkeit der Nutzung geordnet. Diese Informationen sind nicht mit deinem Profil verknüpft, sondern beruhen auf den Gesamtdaten aller Nutzer, die die Nationale Jugendkarte nutzen und der Verarbeitung ihrer Daten zugestimmt haben."
-          },
-          "a11y": "{{name}}, {{count}} Neue Möglichkeiten gefunden"
+          }
         },
         "filter": {
           "title": "Anbieter filtern",
@@ -2943,7 +2952,6 @@
           "cta": {
             "cancel": "Entfernen",
             "confirm": {
-              "zero": "Filter anwenden",
               "one": "({{count}}) Filter anwenden",
               "other": "({{count}}) Filter anwenden"
             }
@@ -3322,8 +3330,7 @@
           "content": "Bezahle eine Zahlungsmitteilung in der App oder mittels jedem pagoPA-fähigen Kanal."
         },
         "status": {
-          "failure": "FEHLGESCHLAGEN",
-          "success": ""
+          "failure": "FEHLGESCHLAGEN"
         },
         "receipt": {
           "loading": "Die Quittung wird geladen...",
@@ -3380,7 +3387,7 @@
           "description": "Für diese Methode ist die Schnellzahlung mit dem Anbieter {{pspBusinessName}} aktiv.",
           "action": "Was bedeutet das?",
           "title": "Was bedeutet das?",
-          "explainationContent": "Wenn du diese Methode gespeichert hast, hast du {{pspBusinessName}} autorisiert, Transaktionen über 'PayPal-Schnellzahlung' abzuwickeln.\n\nWenn du einen anderen Anbieter verwenden möchtest, füge die Methode erneut zu deinem Konto hinzu.\n\nUm die Autorisierung zu widerrufen, entferne die Methode aus deinem Konto.\n\nVerwende die PayPal-App, um die Karte oder das Bankkonto zu ändern, von der/dem du die Gebühren abbuchen möchtest."
+          "explainationContent": "Wenn du diese Methode gespeichert hast, hast du {{pspBusinessName}} autorisiert, Transaktionen über 'PayPal-Schnellzahlung' abzuwickeln.\n\nWenn du einen anderen Anbieter verwenden möchtest, füge die Methode erneut zu deinem Konto hinzu.\n\nUm die Autorisierung zu widerrufen, entferne die Methode aus deinem Konto.\n\nVerwende die PayPal-App, um die Karte oder das Bankkonto zu ändern, von der\/dem du die Gebühren abbuchen möchtest."
         }
       },
       "errors": {
@@ -3496,6 +3503,19 @@
         }
       },
       "identification": {
+        "nfc": {
+          "title": "NFC aktivieren, um fortzufahren",
+          "description": "Damit IO deine CIE lesen kann, aktiviere NFC in den Einstellungen deines Geräts.",
+          "header": "Wie geht das",
+          "steps": {
+            "1": "Öffne 'Einstellungen'",
+            "2": "Suche nach 'NFC'",
+            "3": "Aktiviere die Funktion",
+            "label": "Schritt {{value}}"
+          },
+          "primaryAction": "Einstellungen öffnen",
+          "secondaryAction": "Weiter"
+        },
         "mode": {
           "l2": {
             "title": "Überprüfe deine Identität",
@@ -3516,19 +3536,6 @@
               }
             }
           }
-        },
-        "nfc": {
-          "title": "NFC aktivieren, um fortzufahren",
-          "description": "Damit IO deine CIE lesen kann, aktiviere NFC in den Einstellungen deines Geräts.",
-          "header": "Wie geht das",
-          "steps": {
-            "1": "Öffne 'Einstellungen'",
-            "2": "Suche nach 'NFC'",
-            "3": "Aktiviere die Funktion",
-            "label": "Schritt {{value}}"
-          },
-          "primaryAction": "Einstellungen öffnen",
-          "secondaryAction": "Weiter"
         },
         "cieId": {
           "loading": {
@@ -3891,6 +3898,40 @@
       }
     }
   },
+  "idpay": {
+    "onboarding": {
+      "enableMessages": {
+        "title": "Nachrichten aktivieren",
+        "subtitle": "Aktivieren Sie die Möglichkeit, Sie in der App zu kontaktieren, um Aktualisierungen auf dem {{initiativeName}} zu erhalten. Dieser Schritt ist erforderlich, um mit der Anfrage fortzufahren.",
+        "confirmAction": "OK, aktiv",
+        "cancelAction": "Stornieren"
+      },
+      "enableNotification": {
+        "title": "Non perderti l’esito delle tue richieste",
+        "subtitle": "Attiva le notifiche push per sapere subito quando ricevi un nuovo messaggio in app.",
+        "action": "Attiva notifiche push",
+        "deny": "Non attivare",
+        "success": "Sie aktivierten Push -Benachrichtigungen",
+        "advice": "Consigliato"
+      }
+    },
+    "configuration": {
+      "iban": {
+        "onboarding": {
+          "error": {
+            "iban": "Iban ist nicht gültig",
+            "name": "Assoziiert einen Namen mit der Iban"
+          }
+        }
+      }
+    },
+    "unsubscription": {
+      "removeAlert": {
+        "title": "Möchten Sie {{initiativeName}} aus der Brieftasche löschen?",
+        "content": "Der Bonus wird entfernt."
+      }
+    }
+  },
   "barcodeScan": {
     "error": "IO kann diesen Code nicht erkennen",
     "tabs": {
@@ -4009,8 +4050,8 @@
         "debtor": "Schuldner",
         "iuv": "IUV",
         "subject": "Zahlungsgrund",
-        "noticeCode": "Kodex der Zahlungsmitteilung/IUV",
-        "noticeCodeAccessible": "Codice avviso/Identificativo Univoco Versamento",
+        "noticeCode": "Kodex der Zahlungsmitteilung\/IUV",
+        "noticeCodeAccessible": "Codice avviso\/Identificativo Univoco Versamento",
         "taxCode": "Steuernummer Körperschaft"
       }
     }
@@ -4096,40 +4137,6 @@
         "body": "Damit du auf einen externen Dienst zugreifen kannst, ohne dich jedes Mal zu authentifizieren, gibt die IO-App einige deiner Daten an den Anbieter weiter.",
         "body2": "Deine Daten sind sicher und werden nur zu den Zwecken verarbeitet, die von der Körperschaft angegeben sind.",
         "bodyPrivacy": "Datenschutzrichtlinie"
-      }
-    }
-  },
-  "idpay": {
-    "configuration": {
-      "iban": {
-        "onboarding": {
-          "error": {
-            "iban": "Iban ist nicht gültig",
-            "name": "Assoziiert einen Namen mit der Iban"
-          }
-        }
-      }
-    },
-    "unsubscription": {
-      "removeAlert": {
-        "title": "Möchten Sie {{initiativeName}} aus der Brieftasche löschen?",
-        "content": "Der Bonus wird entfernt."
-      }
-    },
-    "onboarding": {
-      "enableMessages": {
-        "cancelAction": "Stornieren",
-        "subtitle": "Aktivieren Sie die Möglichkeit, Sie in der App zu kontaktieren, um Aktualisierungen auf dem {{initiativeName}} zu erhalten. Dieser Schritt ist erforderlich, um mit der Anfrage fortzufahren.",
-        "title": "Nachrichten aktivieren",
-        "confirmAction": "OK, aktiv"
-      },
-      "enableNotification": {
-        "title": "Non perderti l’esito delle tue richieste",
-        "subtitle": "Attiva le notifiche push per sapere subito quando ricevi un nuovo messaggio in app.",
-        "action": "Attiva notifiche push",
-        "deny": "Non attivare",
-        "success": "Sie aktivierten Push -Benachrichtigungen",
-        "advice": "Consigliato"
       }
     }
   }

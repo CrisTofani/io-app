@@ -11,7 +11,7 @@
   },
   "date": {
     "formats": {
-      "default": "%d/%m/%Y",
+      "default": "%d\/%m\/%Y",
       "short": "%d %B",
       "long": "%d %B %Y"
     },
@@ -24,7 +24,15 @@
       "venerdì",
       "sabato"
     ],
-    "abbr_day_names": ["dom", "lun", "mar", "mer", "gio", "ven", "sab"],
+    "abbr_day_names": [
+      "dom",
+      "lun",
+      "mar",
+      "mer",
+      "gio",
+      "ven",
+      "sab"
+    ],
     "month_names": [
       " ",
       "gennaio",
@@ -55,15 +63,16 @@
       "nov",
       "dic"
     ],
-    "meridian": ["am", "pm"],
+    "meridian": [
+      "am",
+      "pm"
+    ],
     "time": {
       "minutes": {
-        "zero": "0 minuti",
         "one": "1 minuto",
         "other": "{{count}} minuti"
       },
       "seconds": {
-        "zero": "0 secondi",
         "one": "1 secondo",
         "other": "{{count}} secondi"
       }
@@ -151,8 +160,8 @@
       "tomorrow": "domani"
     },
     "dateFormats": {
-      "shortFormat": "%d/%m/%Y",
-      "shortFormatWithTime": "%d/%m/%Y, %H:%M",
+      "shortFormat": "%d\/%m\/%Y",
+      "shortFormatWithTime": "%d\/%m\/%Y, %H:%M",
       "fullFormatShortMonthLiteral": "%d %b %Y",
       "fullFormatShortMonthLiteralWithTime": "%d %b %Y, %H:%M",
       "fullFormatShortMonthLiteralWithoutTime": "%d %b %Y",
@@ -164,14 +173,14 @@
       "dayMonthWithTime": "%d %b, %H:%M",
       "dayMonthWithoutTime": "%d %b",
       "dayFullMonth": "%d %B",
-      "numericMonthYear": "%m/%Y",
-      "shortNumericMonthYear": "%m/%-y",
+      "numericMonthYear": "%m\/%Y",
+      "shortNumericMonthYear": "%m\/%-y",
       "monthYear": "MMMM YYYY",
       "dayAndMonth": "dddd D MMMM",
-      "dayMonth": "DD/MM",
+      "dayMonth": "DD\/MM",
       "dayMonthYear": "D MMMM YYYY",
       "weekdayDayMonthYear": "dddd D MMMM YYYY",
-      "dateTimePicker": "gg/mm/yyyy"
+      "dateTimePicker": "gg\/mm\/yyyy"
     },
     "genericError": "C'è un problema temporaneo, riprova.",
     "genericAlert": "Attenzione!",
@@ -185,7 +194,7 @@
       "message": "Abbiamo segnalato questo al nostro team! Si prega di chiudere l'app e ricominciare!"
     },
     "markdown": {
-      "reference": "[demo]I am a custom demo tag at the beginning of the markdown[/demo]\n\n# Titolo h1: Lorem ipsum dolor sit amet, consectetur adipisici elit\n\nTesto semplice\n\n## Titolo h2: sed eiusmod tempor incidunt ut labore et dolore magna aliqua\n\ntesto semplice\n\n### Titolo h3: Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.\n\ntesto semplice\n\nLorem **ipsum dolor** sit amet, *consectetur* adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Unam incolunt Belgae, aliam Aquitani, tertiam.\n\n\nLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Magna pars studiorum, prodita quaerimus. Phasellus laoreet lorem vel dolor tempus vehicula. Fabio vel iudice vincam, sunt in culpa qui officia. Idque Caesaris facere voluntate liceret: sese habere. Tu quoque, Brute, fili mi, nihil timor populi, nihil!  \nNec dubitamus multa iter quae et nos invenerat. Cum sociis natoque penatibus et magnis dis parturient. Donec sed odio operae, eu vulputate felis rhoncus. Tityre, tu patulae recubans sub tegmine fagi dolor. At nos hinc posthac, sitientis piros Afros. Non equidem invideo, miror magis posuere velit aliquet.  \nHi omnes lingua, institutis, legibus inter se differunt. Quae vero auctorem tractata ab fiducia dicuntur. Plura mihi bona sunt, inclinet, amari petere vellent. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna.\n\n[demo]I am a custom demo tag in the middle of the markdown[/demo]\n\nLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Fabio vel iudice vincam, sunt in culpa qui officia.\n\n\n> Quote o indent\n\nLista:\n\n- uno\n- due\n- tre\n\nLista numerata:\n\n1. uno\n2. due\n3. tre\n\n\nLink\n\n[esempio di link](https://ioapp.it/)\n\n\nEsempio link interni\n\n[home preferenze](ioit://PREFERENCES_HOME),\n[elenco servizi](ioit://SERVICES_HOME),\n[profilo](ioit://PROFILE_MAIN),\n[portafoglio](ioit://WALLET_HOME),\n[privacy](ioit://PROFILE_PRIVACY_MAIN),\n[Termini e condizioni d'uso](ioit://PROFILE_TOS),\n[privacy policy](ioit://PROFILE_PRIVACY)\n[lista messaggi](ioit://MESSAGES_LIST)\n\n\nhttps://help.github.com/articles/basic-writing-and-formatting-syntax/\n",
+      "reference": "[demo]I am a custom demo tag at the beginning of the markdown[\/demo]\n\n# Titolo h1: Lorem ipsum dolor sit amet, consectetur adipisici elit\n\nTesto semplice\n\n## Titolo h2: sed eiusmod tempor incidunt ut labore et dolore magna aliqua\n\ntesto semplice\n\n### Titolo h3: Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.\n\ntesto semplice\n\nLorem **ipsum dolor** sit amet, *consectetur* adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Unam incolunt Belgae, aliam Aquitani, tertiam.\n\n\nLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Magna pars studiorum, prodita quaerimus. Phasellus laoreet lorem vel dolor tempus vehicula. Fabio vel iudice vincam, sunt in culpa qui officia. Idque Caesaris facere voluntate liceret: sese habere. Tu quoque, Brute, fili mi, nihil timor populi, nihil!  \nNec dubitamus multa iter quae et nos invenerat. Cum sociis natoque penatibus et magnis dis parturient. Donec sed odio operae, eu vulputate felis rhoncus. Tityre, tu patulae recubans sub tegmine fagi dolor. At nos hinc posthac, sitientis piros Afros. Non equidem invideo, miror magis posuere velit aliquet.  \nHi omnes lingua, institutis, legibus inter se differunt. Quae vero auctorem tractata ab fiducia dicuntur. Plura mihi bona sunt, inclinet, amari petere vellent. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna.\n\n[demo]I am a custom demo tag in the middle of the markdown[\/demo]\n\nLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Fabio vel iudice vincam, sunt in culpa qui officia.\n\n\n> Quote o indent\n\nLista:\n\n- uno\n- due\n- tre\n\nLista numerata:\n\n1. uno\n2. due\n3. tre\n\n\nLink\n\n[esempio di link](https:\/\/ioapp.it\/)\n\n\nEsempio link interni\n\n[home preferenze](ioit:\/\/PREFERENCES_HOME),\n[elenco servizi](ioit:\/\/SERVICES_HOME),\n[profilo](ioit:\/\/PROFILE_MAIN),\n[portafoglio](ioit:\/\/WALLET_HOME),\n[privacy](ioit:\/\/PROFILE_PRIVACY_MAIN),\n[Termini e condizioni d'uso](ioit:\/\/PROFILE_TOS),\n[privacy policy](ioit:\/\/PROFILE_PRIVACY)\n[lista messaggi](ioit:\/\/MESSAGES_LIST)\n\n\nhttps:\/\/help.github.com\/articles\/basic-writing-and-formatting-syntax\/\n",
       "decodeError": "Il messaggio non può essere decodificato"
     },
     "buttons": {
@@ -418,7 +427,7 @@
     },
     "main": {
       "title": "Profilo",
-      "logout": "Logout/Esci",
+      "logout": "Logout\/Esci",
       "forgetCurrentSession": "Dimentica sessione corrente",
       "clearAsyncStorage": "Cancella contenuto di AsyncStorage",
       "dumpAsyncStorage": "Scarica contenuto di AsyncStorage",
@@ -536,7 +545,7 @@
           "updated": "Abbiamo aggiornato la nostra Informativa e i Termini e condizioni d’uso.",
           "infobox": "È necessario prendere visione e accettare l'Informativa ed i Termini e condizioni d'uso",
           "contextualHelpTitlePolicy": "Informativa sul trattamento dei dati personali e condizioni d'uso del servizio",
-          "contextualHelpContentPolicy": "### Cosa sono l'informativa e i termini d'uso?\n\nSecondo quanto stabilito dall'art. 13 del Regolamento UE n. 2016/679 (comunemente GDPR), nell'informativa puoi trovare la descrizione completa di come l'app IO gestisce i tuoi dati personali. I termini e condizioni d'uso invece stabiliscono i tuoi diritti e obblighi nell'utilizzo dell'app e dei suoi servizi. <br/> <br/> <br/> <br/> \n\n\n",
+          "contextualHelpContentPolicy": "### Cosa sono l'informativa e i termini d'uso?\n\nSecondo quanto stabilito dall'art. 13 del Regolamento UE n. 2016\/679 (comunemente GDPR), nell'informativa puoi trovare la descrizione completa di come l'app IO gestisce i tuoi dati personali. I termini e condizioni d'uso invece stabiliscono i tuoi diritti e obblighi nell'utilizzo dell'app e dei suoi servizi. <br\/> <br\/> <br\/> <br\/> \n\n\n",
           "contextualHelpTitle": "Le tue impostazioni di privacy",
           "contextualHelpContent": "**Qui trovi le informazioni legate alla privacy del tuo profilo**, in particolare puoi consultare l'informativa sul trattamento dei dai personali, eliminare il tuo account ed esportare i dati personali associati al tuo profilo. \n"
         },
@@ -568,7 +577,7 @@
             "gdpr": {
               "description": {
                 "one": "Collaboriamo solo con fornitori che trattano i dati in modo ",
-                "two": "trasparente e sicuro."
+                "other": ""
               },
               "cta": "Chi sono i fornitori"
             },
@@ -802,7 +811,7 @@
     "title": "Appoggia la carta",
     "layCardMessageHeader": "Appoggia per qualche secondo la tua carta di identità elettronica al retro del tuo telefono.",
     "layCardMessageFooter": "Se non sai con precisione dove sia l'antenna NFC sposta la carta in punti diversi e attendi qualche secondo finché non senti un suono.",
-    "booking_url": "https://www.cartaidentita.interno.gov.it/cittadini/sistema-di-prenotazione-della-cie/"
+    "booking_url": "https:\/\/www.cartaidentita.interno.gov.it\/cittadini\/sistema-di-prenotazione-della-cie\/"
   },
   "spid": {
     "login": "ACCEDI",
@@ -856,12 +865,12 @@
         }
       },
       "contentTitleCie": "Non hai SPID o la CIE?",
-      "cie_information_request": "**CIE**, la Carta di Identità Elettronica, ti permette di accedere a tutti i servizi della Pubblica Amministrazione. La puoi usare per accedere comodamente ad IO sul tuo smartphone. Ti servirà anche il PIN che ti viene consegnato metà in anagrafe e metà per posta insieme alla carta.\n\n## CIE è sicura\n\nInsieme a SPID, CIE è l'unico strumento che consente di certificare la propria identità digitale con il massimo livello di sicurezza.\n\n## Come ottenere CIE\n\nPuoi fare richiesta della CIE presso l'anagrafe del tuo comune di residenza o dimora: per saperne di più vai su [https://www.cartaidentita.interno.gov.it](https://www.cartaidentita.interno.gov.it)\n",
+      "cie_information_request": "**CIE**, la Carta di Identità Elettronica, ti permette di accedere a tutti i servizi della Pubblica Amministrazione. La puoi usare per accedere comodamente ad IO sul tuo smartphone. Ti servirà anche il PIN che ti viene consegnato metà in anagrafe e metà per posta insieme alla carta.\n\n## CIE è sicura\n\nInsieme a SPID, CIE è l'unico strumento che consente di certificare la propria identità digitale con il massimo livello di sicurezza.\n\n## Come ottenere CIE\n\nPuoi fare richiesta della CIE presso l'anagrafe del tuo comune di residenza o dimora: per saperne di più vai su [https:\/\/www.cartaidentita.interno.gov.it](https:\/\/www.cartaidentita.interno.gov.it)\n",
       "spid_or_cie": "Per utilizzare IO devi dotarti di uno di questi strumenti digitali, che certificano in maniera certa la tua identità.",
       "request_cie": "Richiedi CIE",
       "request_spid": "Ottieni SPID",
       "contextualHelpTitle": "Come accedere all'app IO",
-      "contextualHelpContent": "Per accedere all'app IO dovrai autenticarti con la tua identità SPID (Sistema Pubblico di Identità Digitale) oppure utilizzando la CIE (Carta d'Identità Elettronica).\n**Grazie a questi sistemi di registrazione il tuo accesso all'app sarà sempre sicuro.**  \nPer richiedere un'identità digitale SPID puoi visitare [spid.gov.it](https://www.spid.gov.it) e scegliere un Identity Provider tra quelli proposti. \nSe invece sei interessato a fare richiesta per la CIE, puoi consultare maggiori informazioni sul sito del tuo Comune e prenotare un appuntamento.\n",
+      "contextualHelpContent": "Per accedere all'app IO dovrai autenticarti con la tua identità SPID (Sistema Pubblico di Identità Digitale) oppure utilizzando la CIE (Carta d'Identità Elettronica).\n**Grazie a questi sistemi di registrazione il tuo accesso all'app sarà sempre sicuro.**  \nPer richiedere un'identità digitale SPID puoi visitare [spid.gov.it](https:\/\/www.spid.gov.it) e scegliere un Identity Provider tra quelli proposti. \nSe invece sei interessato a fare richiesta per la CIE, puoi consultare maggiori informazioni sul sito del tuo Comune e prenotare un appuntamento.\n",
       "loginSpid": "Entra con SPID",
       "loginCie": "Entra con CIE",
       "show_wallet": "Mostra i tuoi Documenti",
@@ -1025,7 +1034,7 @@
       "genericTitle": "Entra con CIE",
       "cie": "CIE",
       "noDataTitle": "Per usare IO è necessario autorizzare l'invio dei dati",
-      "authToSendData": "IO tratta i tuoi dati personali nel rispetto della sicurezza e della tua privacy, seguendo le indicazioni del **Regolamento generale sulla protezione dei dati** emanato dall'Unione Europea ([GDPR, regolamento n. 2016/679](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32016R0679)).\n\nSe vuoi puoi riprovare a fare login.\n",
+      "authToSendData": "IO tratta i tuoi dati personali nel rispetto della sicurezza e della tua privacy, seguendo le indicazioni del **Regolamento generale sulla protezione dei dati** emanato dall'Unione Europea ([GDPR, regolamento n. 2016\/679](https:\/\/eur-lex.europa.eu\/legal-content\/IT\/TXT\/?uri=CELEX%3A32016R0679)).\n\nSe vuoi puoi riprovare a fare login.\n",
       "nfc": {
         "apduNotSupported": "Il sistema operativo non supporta la lettura della Carta di Identità Elettronica. Prova ad usare SPID per entrare in app.",
         "retry": "Riprova",
@@ -1068,7 +1077,7 @@
         "bottomSheetCTA": "Hai dimenticato il PIN?",
         "contextualHelpTitle": "Dove trovo i codici PIN e PUK?",
         "contextualHelpBody": "Il codice **PIN** è composto da 8 cifre:  \n• le prime 4 cifre ti sono state consegnate all'anagrafe;  \n• le ultime 4 cifre ti sono state spedite a casa, insieme alla carta d'identità elettronica.  \n  \nMettile insieme e inseriscile in quest'ordine.  \nIl codice PUK è necessario invece per sbloccare il **PIN** a seguito di tre tentativi errati. È composto da 8 cifre, e viene rilasciato insieme al **PIN**.",
-        "contextualHelpCTA": "Hai dimenticato il PIN/PUK?"
+        "contextualHelpCTA": "Hai dimenticato il PIN\/PUK?"
       },
       "pinTempLocked": {
         "title": "Carta temporaneamente bloccata"
@@ -1114,7 +1123,7 @@
       "contentTitle": "Cos'è SPID?"
     },
     "spid_information": {
-      "spid": "**SPID**, il Sistema Pubblico di Identità Digitale, ti permette di accedere a tutti i servizi della Pubblica Amministrazione con un'unica Identità Digitale (username e password). [Per saperne di più](https://www.spid.gov.it)\n\n## SPID è sicuro\n\nSPID ti permette di fare online cose che prima potevi fare solo di persona: per registrarti a SPID dovrai quindi **certificare la tua identità** completando il riconoscimento presso un Identity Provider. Ecco cosa dovrai fare:\n",
+      "spid": "**SPID**, il Sistema Pubblico di Identità Digitale, ti permette di accedere a tutti i servizi della Pubblica Amministrazione con un'unica Identità Digitale (username e password). [Per saperne di più](https:\/\/www.spid.gov.it)\n\n## SPID è sicuro\n\nSPID ti permette di fare online cose che prima potevi fare solo di persona: per registrarti a SPID dovrai quindi **certificare la tua identità** completando il riconoscimento presso un Identity Provider. Ecco cosa dovrai fare:\n",
       "headerTitle": "Non hai SPID?",
       "contentTitle": "Cos'è SPID?",
       "subtitle": "SPID è sicuro"
@@ -1282,8 +1291,8 @@
     "validate": {
       "title": "Ricorda di validare il tuo indirizzo email!",
       "header": "Validazione email",
-      "content1": "Ti abbiamo inviato una mail a <b>{{email}}</b> con un link per validare la mail: clicca semplicemente su quel link.<br/>Finché non validerai il tuo indirizzo email alcune funzioni dell'app (pagamenti, inoltro dei messaggi via mail, ecc.) non potranno essere utilizzate, ma potrai usare comunque altre funzioni (es. servizi, messaggi, ecc.).",
-      "content2": "Per usare alcune funzioni di IO devi validare il tuo indirizzo email.<br/>Ti abbiamo inviato una email a <b>{{email}}</b>: apri il tuo client di posta e clicca semplicemente sul link.",
+      "content1": "Ti abbiamo inviato una mail a <b>{{email}}<\/b> con un link per validare la mail: clicca semplicemente su quel link.<br\/>Finché non validerai il tuo indirizzo email alcune funzioni dell'app (pagamenti, inoltro dei messaggi via mail, ecc.) non potranno essere utilizzate, ma potrai usare comunque altre funzioni (es. servizi, messaggi, ecc.).",
+      "content2": "Per usare alcune funzioni di IO devi validare il tuo indirizzo email.<br\/>Ti abbiamo inviato una email a <b>{{email}}<\/b>: apri il tuo client di posta e clicca semplicemente sul link.",
       "cta": "Invia una nuova email di validazione",
       "sent": "Email inviata",
       "send_validation_ok": "Email di validazione inviata",
@@ -1540,7 +1549,7 @@
       "fee": "Commissione",
       "feeAppliedBy": "Applicata da",
       "editButton": "Modifica",
-      "termsAndConditions": "Proseguendo accetti i [Termini e condizioni d’uso](https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/) e confermi di aver letto l'[Informativa Privacy](https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/) di {{pspName}}"
+      "termsAndConditions": "Proseguendo accetti i [Termini e condizioni d’uso](https:\/\/www.pagopa.gov.it\/it\/prestatori-servizi-di-pagamento\/elenco-PSP-attivi\/) e confermi di aver letto l'[Informativa Privacy](https:\/\/www.pagopa.gov.it\/it\/prestatori-servizi-di-pagamento\/elenco-PSP-attivi\/) di {{pspName}}"
     }
   },
   "wallet": {
@@ -1818,7 +1827,6 @@
       "outcome": {
         "SUCCESS": {
           "title": "Il metodo è stato aggiunto",
-          "subtitle": "",
           "primaryAction": "Vedi dettagli",
           "secondaryAction": "Continua"
         },
@@ -1844,7 +1852,6 @@
         },
         "CANCELED_BY_USER": {
           "title": "L'operazione è stata annullata",
-          "subtitle": "",
           "primaryAction": "Chiudi"
         },
         "INVALID_SESSION": {
@@ -1854,7 +1861,6 @@
         },
         "ALREADY_ONBOARDED": {
           "title": "Hai già aggiunto questo metodo",
-          "subtitle": "",
           "primaryAction": "Chiudi"
         },
         "BPAY_NOT_FOUND": {
@@ -1885,7 +1891,7 @@
       "amex": "I pagamenti con carte American Express, per importi superiori a €1000, non sono al momento possibili"
     },
     "contextualHelpTitle": "Cosa puoi fare nel tuo Portafoglio",
-    "contextualHelpContent": "**Nella sezione Portafoglio sono elencati i tuoi metodi di pagamento, i tuoi Bonus e carte sconto e lo storico delle transazioni effettuate con pagoPA**, la piattaforma dei pagamenti per la Pubblica Amministrazione. \nQui potrai inoltre pagare tutti gli avvisi di pagamento cartaceo con il logo pagoPA: inquadra il QR code che trovi nell'avviso cartaceo e completa il pagamento direttamente dall'app. IO supporta al momento solo pagamenti con carta di credito/debito, ma presto saranno aggiunti altri metodi di pagamento.",
+    "contextualHelpContent": "**Nella sezione Portafoglio sono elencati i tuoi metodi di pagamento, i tuoi Bonus e carte sconto e lo storico delle transazioni effettuate con pagoPA**, la piattaforma dei pagamenti per la Pubblica Amministrazione. \nQui potrai inoltre pagare tutti gli avvisi di pagamento cartaceo con il logo pagoPA: inquadra il QR code che trovi nell'avviso cartaceo e completa il pagamento direttamente dall'app. IO supporta al momento solo pagamenti con carta di credito\/debito, ma presto saranno aggiunti altri metodi di pagamento.",
     "creditcards": "Carte di Credito",
     "paymentMethods": "Metodi di pagamento",
     "paymentMethod": "Metodo di pagamento",
@@ -2009,7 +2015,7 @@
       "fetchPspFailure": "Errore temporaneo, riprova",
       "noPspsAvailable": "Questo metodo di pagamento non può essere usato",
       "contextualHelpTitle": "Scelta del metodo di pagamento",
-      "contextualHelpContent": "**Qui puoi scegliere il metodo con cui procedere al pagamento.** IO supporta al momento solo pagamenti con carta di credito/debito ma presto saranno aggiunti altri metodi di pagamento come PayPal e altri.\n",
+      "contextualHelpContent": "**Qui puoi scegliere il metodo con cui procedere al pagamento.** IO supporta al momento solo pagamenti con carta di credito\/debito ma presto saranno aggiunti altri metodi di pagamento come PayPal e altri.\n",
       "pickPaymentMethod": {
         "title": "Con quale metodo vuoi pagare?",
         "description": "{{firstElement}} · {{secondElement}}",
@@ -2106,7 +2112,7 @@
     "noTransactionsInTransactionsScreen": "Non hai ancora utilizzato questo metodo di pagamento per pagare tramite IO o pagoPA. In questa lista vedrai solo le operazioni eseguite con questo metodo.",
     "payNotice": "Paga un avviso",
     "latestTransactions": "Le tue operazioni",
-    "creditDebitCards": "Carte di Credito/Debito",
+    "creditDebitCards": "Carte di Credito\/Debito",
     "addPaymentMethodTitle": "Aggiungi un metodo",
     "continue": "Vai al pagamento",
     "backToPayments": "Torna ai pagamenti",
@@ -2187,7 +2193,7 @@
       "values": {
         "holder": "Mario Rossi",
         "pan": "0000 0000 0000 0000",
-        "expirationDate": "mm/aa",
+        "expirationDate": "mm\/aa",
         "securityCode": "•••",
         "securityCode4D": "••••"
       },
@@ -2501,7 +2507,7 @@
         },
         "TIMEOUT": {
           "title": "La sessione è scaduta",
-          "subtitle": "Non è stato addebitato alcun importo.\\nPer la tua sicurezza, hai a disposizione un tempo limitato per completare l’operazione."
+          "subtitle": "Non è stato addebitato alcun importo.\nPer la tua sicurezza, hai a disposizione un tempo limitato per completare l’operazione."
         },
         "CIRCUIT_ERROR": {
           "title": "Il circuito della carta non è supportato"
@@ -2519,7 +2525,7 @@
         },
         "EXCESSIVE_AMOUNT": {
           "title": "Autorizzazione negata",
-          "subtitle": "Non è stato addebitato alcun importo.\\nProbabilmente hai sforato i limiti di spesa previsti dalla tua banca."
+          "subtitle": "Non è stato addebitato alcun importo.\nProbabilmente hai sforato i limiti di spesa previsti dalla tua banca."
         },
         "INVALID_METHOD": {
           "title": "Il metodo di pagamento non è supportato"
@@ -2637,7 +2643,8 @@
     "contextualHelpTitle": "Cosa puoi fare nei tuoi Messaggi",
     "contextualHelpContent": "**La sezione Messaggi raccoglie tutte le comunicazioni in arrivo dagli enti che offrono i propri servizi tramite IO**. \nÈ possibile fissare dei promemoria per le scadenze o procedere al pagamento di un avviso direttamente dal messaggio.  \nI messaggi sono suddivisi tra **ricevuti** (che contiene tutti i messaggi arrivati e non archiviati), **scadenze** (che visualizza al suo interno solo i messaggi contenenti una data di scadenza, in modo da facilitare la gestione delle cose da fare), e **archiviati** (che tiene traccia di tutti i messaggi archiviati).  \nPer archiviare un messaggio è sufficiente tenere premuta l'area del messaggio da archiviare, e selezionare il pulsante \"archivia\" che comparirà in quel momento sullo schermo.\n",
     "counting": {
-      "one": "Hai 1 messaggio"
+      "one": "Hai 1 messaggio",
+      "other": ""
     },
     "tab": {
       "inbox": "Ricevuti",
@@ -2751,7 +2758,7 @@
     "errorText": "Non siamo riusciti a caricare i dettagli del tuo messaggio",
     "retryText": "Probabilmente è un errore temporaneo... riprova per piacere!",
     "submitBugText": "Se il problema non si risolve segnalacelo con l'icona '?' in alto a destra, grazie!",
-    "addMemo": "Aggiungi un promemoria per il <b>{{date}}</b> [alle <b>{{hour}}</b>]",
+    "addMemo": "Aggiungi un promemoria per il <b>{{date}}<\/b> [alle <b>{{hour}}<\/b>]",
     "dateSending": "Data e ora invio:",
     "sender": "Mittente:",
     "service": "Servizio:",
@@ -3104,11 +3111,11 @@
     },
     "2": {
       "title": "Come puoi ottenere SPID?",
-      "content": "Per ottenere le tue credenziali SPID devi rivolgerti a Aruba, EtnaHiTech, Infocamere, Infocert, Namirial, Poste, Register, Sielte, Tim, Lepida o TeamSystem. Questi soggetti (detti identity provider) ti offrono diverse modalità per richiedere e ottenere SPID, puoi scegliere quella più adatta alle tue esigenze. Tutte le informazioni su dove e come chiedere le tue credenziali SPID sul sito [https://www.spid.gov.it/cos-e-spid/come-attivare-spid/](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/). \n"
+      "content": "Per ottenere le tue credenziali SPID devi rivolgerti a Aruba, EtnaHiTech, Infocamere, Infocert, Namirial, Poste, Register, Sielte, Tim, Lepida o TeamSystem. Questi soggetti (detti identity provider) ti offrono diverse modalità per richiedere e ottenere SPID, puoi scegliere quella più adatta alle tue esigenze. Tutte le informazioni su dove e come chiedere le tue credenziali SPID sul sito [https:\/\/www.spid.gov.it\/cos-e-spid\/come-attivare-spid\/](https:\/\/www.spid.gov.it\/cos-e-spid\/come-attivare-spid\/). \n"
     },
     "3": {
       "title": "Hai perso le tue credenziali SPID?",
-      "content": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaID](https://etnaid.eht.eu/signup/forgotPassword), [Infocamere](https://selfcarespid.infocamere.it/spid-selfCare/#RecoveryEmergencyCode),[Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Poste](https://posteid.poste.it/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https://spid.register.it/selfcare/recovery/username), [Register, in caso di password dimenticata](https://spid.register.it/selfcare/recovery/password), [Sielte, in caso di password dimenticata](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in caso di username dimenticata](https://login.id.tim.it/mps/fu.php), [Tim, in caso di password dimenticata](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in caso di password dimenticata](https://spid.teamsystem.com/it/auth/passwordLost)."
+      "content": "Non preoccuparti: puoi recuperarle in qualsiasi momento. Seleziona il tuo Identity Provider per sapere come procedere: [Aruba](https:\/\/guide.pec.it\/spid\/recupero-dati\/procedure-di-recupero-dati-smarriti.aspx), [EtnaID](https:\/\/etnaid.eht.eu\/signup\/forgotPassword), [Infocamere](https:\/\/selfcarespid.infocamere.it\/spid-selfCare\/#RecoveryEmergencyCode),[Infocert](https:\/\/my.infocert.it\/selfcare\/#\/recoveryPin), [Namirial](https:\/\/portale.namirialtsp.com\/private\/user\/spid_reset.php), [Poste](https:\/\/posteid.poste.it\/recuperocredenziali.shtml), [Register, in caso di username dimenticato](https:\/\/spid.register.it\/selfcare\/recovery\/username), [Register, in caso di password dimenticata](https:\/\/spid.register.it\/selfcare\/recovery\/password), [Sielte, in caso di password dimenticata](https:\/\/myid.sieltecloud.it\/profile\/recovery\/forgotPassword), [Tim, in caso di username dimenticata](https:\/\/login.id.tim.it\/mps\/fu.php), [Tim, in caso di password dimenticata](https:\/\/login.id.tim.it\/mps\/fp.php), [Lepida](https:\/\/id.lepida.it\/idm\/app\/recupero_credenziali.jsp), [TeamSystem, in caso di username dimenticata](https:\/\/spid.teamsystem.com\/it\/auth\/usernameLost), [TeamSystem, in caso di password dimenticata](https:\/\/spid.teamsystem.com\/it\/auth\/passwordLost)."
     },
     "4": {
       "title": "Cos'è la CIE?",
@@ -3116,7 +3123,7 @@
     },
     "5": {
       "title": "Come puoi ottenere la CIE?",
-      "content": "Puoi collegarti all’indirizzo [https://www.prenotazionicie.interno.gov.it/](https://www.prenotazionicie.interno.gov.it) e digitare il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. Se sì, puoi procedere alla prenotazione dell'appuntamento direttamente dal sito, senza nessun login. In alternative, puoi chiedere un appuntamento sempre online sul sito del tuo Comune, oppure recandoti ad uno degli uffici comunali."
+      "content": "Puoi collegarti all’indirizzo [https:\/\/www.prenotazionicie.interno.gov.it\/](https:\/\/www.prenotazionicie.interno.gov.it) e digitare il nome del tuo Comune, per verificare se utilizza il sistema di appuntamenti online Agenda CIE. Se sì, puoi procedere alla prenotazione dell'appuntamento direttamente dal sito, senza nessun login. In alternative, puoi chiedere un appuntamento sempre online sul sito del tuo Comune, oppure recandoti ad uno degli uffici comunali."
     },
     "6": {
       "title": "Che cos'è un Identity Provider?",
@@ -3124,7 +3131,7 @@
     },
     "7": {
       "title": "Come scegliere un Identity Provider?",
-      "content": "Gli Identity Provider forniscono diverse modalità di registrazione gratuitamente o a pagamento e i rispettivi SPID hanno diversi livelli di sicurezza. Ecco alcuni parametri utili da considerare se non hai ancora SPID e stai decidendo a quale Identity Provider rivolgerti:\n\n- Modalità di riconoscimento che ti risulta più comoda in fase di richiesta (di persona, tramite Carta d’Identità Elettronica (CIE)*, Carta Nazionale dei Servizi (CNS), Firma Digitale o tramite webcam);\n- Livello di sicurezza di SPID desiderato;\n- Se sei già cliente di uno degli Identity Provider, potresti avere un flusso di registrazione semplificato;\n- Se sei un cittadino italiano residente all’estero, fai attenzione a chi offre il servizio per l’estero.\n\nPer maggiori informazioni puoi consultare il sito di [SPID](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/).\n"
+      "content": "Gli Identity Provider forniscono diverse modalità di registrazione gratuitamente o a pagamento e i rispettivi SPID hanno diversi livelli di sicurezza. Ecco alcuni parametri utili da considerare se non hai ancora SPID e stai decidendo a quale Identity Provider rivolgerti:\n\n- Modalità di riconoscimento che ti risulta più comoda in fase di richiesta (di persona, tramite Carta d’Identità Elettronica (CIE)*, Carta Nazionale dei Servizi (CNS), Firma Digitale o tramite webcam);\n- Livello di sicurezza di SPID desiderato;\n- Se sei già cliente di uno degli Identity Provider, potresti avere un flusso di registrazione semplificato;\n- Se sei un cittadino italiano residente all’estero, fai attenzione a chi offre il servizio per l’estero.\n\nPer maggiori informazioni puoi consultare il sito di [SPID](https:\/\/www.spid.gov.it\/cos-e-spid\/come-attivare-spid\/).\n"
     },
     "8": {
       "title": "È possibile avere più di un'identità digitale?",
@@ -3148,7 +3155,7 @@
     },
     "14": {
       "title": "Come puoi rileggere l'informativa sul trattamento dei dati personali in un secondo momento?",
-      "content": "Una volta terminato il flusso di autenticazione ti ritroverai all'interno dell'app IO. Nella sezione profilo, sotto la voce privacy, puoi consultare in ogni momento l'informativa sul trattamento dei dati personali degli utenti dell'app IO (art. 13 del Regolamento UE n.2016/679)."
+      "content": "Una volta terminato il flusso di autenticazione ti ritroverai all'interno dell'app IO. Nella sezione profilo, sotto la voce privacy, puoi consultare in ogni momento l'informativa sul trattamento dei dati personali degli utenti dell'app IO (art. 13 del Regolamento UE n.2016\/679)."
     },
     "15": {
       "title": "Qual è il PIN della carta d'identità elettronica?",
@@ -3208,7 +3215,7 @@
     },
     "29": {
       "title": "C'è un errore nella comunicazione che hai ricevuto?",
-      "content": "Se pensi che ci sia un errore nel messaggio che hai ricevuto, puoi utilizzare i recapiti di contatto dell'ente erogatore del servizio per fare una segnalazione o chiedere chiarimenti. \nI recapiti sono disponibili dall'area dettagli del messaggio oppure nella sezione 'Servizi' dell'app IO, selezionando lo specifico ente e servizio in questione.\nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e/o PEC, sito web, assistenza online, mobile app. "
+      "content": "Se pensi che ci sia un errore nel messaggio che hai ricevuto, puoi utilizzare i recapiti di contatto dell'ente erogatore del servizio per fare una segnalazione o chiedere chiarimenti. \nI recapiti sono disponibili dall'area dettagli del messaggio oppure nella sezione 'Servizi' dell'app IO, selezionando lo specifico ente e servizio in questione.\nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e\/o PEC, sito web, assistenza online, mobile app. "
     },
     "30": {
       "title": "Questo ente ha il permesso di scriverti?",
@@ -3216,7 +3223,7 @@
     },
     "31": {
       "title": "Vuoi contattare l'ente?",
-      "content": "Dai dettagli del messaggio puoi visualizzare le informazioni relative allo specifico servizio e ente erogatore. Se segui il link al profilo del servizio trovi le informazioni estese, e i recapiti attraverso i quali puoi contattare l'ente erogatore del servizio.\nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e/o PEC, sito web, assistenza online, mobile app."
+      "content": "Dai dettagli del messaggio puoi visualizzare le informazioni relative allo specifico servizio e ente erogatore. Se segui il link al profilo del servizio trovi le informazioni estese, e i recapiti attraverso i quali puoi contattare l'ente erogatore del servizio.\nA seconda delle modalità di contatto gestite dal singolo ente e servizio, i recapiti possono includere: indirizzo dello sportello fisico, numero di telefono, indirizzo mail e\/o PEC, sito web, assistenza online, mobile app."
     },
     "32": {
       "title": "Cos'è il codice identificativo del messaggio?",
@@ -3224,7 +3231,7 @@
     },
     "33": {
       "title": "È possibile pagare un avviso che non hai ricevuto tramite l'app IO?",
-      "content": "Certo, se l'avviso supporta il pagamento tramite pagoPA puoi procedere ed effettuare la transazione direttamente dall'app IO.\nPuoi verificare che il modello di pagamento sia adatto se è disponibile il codice QR, e/o il Codice Avviso. L'app IO, dalla sezione 'Portafoglio', permette sia la scansione del codice QR che l'inserimento manuale del Codice Avviso, a seconda di come ti risulta più comodo."
+      "content": "Certo, se l'avviso supporta il pagamento tramite pagoPA puoi procedere ed effettuare la transazione direttamente dall'app IO.\nPuoi verificare che il modello di pagamento sia adatto se è disponibile il codice QR, e\/o il Codice Avviso. L'app IO, dalla sezione 'Portafoglio', permette sia la scansione del codice QR che l'inserimento manuale del Codice Avviso, a seconda di come ti risulta più comodo."
     },
     "34": {
       "title": "Che cos'è un QR code?",
@@ -3232,15 +3239,15 @@
     },
     "35": {
       "title": "Che cos'è pagoPA?",
-      "content": "pagoPA è un sistema per rendere più semplici, sicuri e trasparenti tutti i pagamenti verso la Pubblica Amministrazione. pagoPA è adottato obbligatoriamente da tutte le Pubbliche Amministrazioni e dagli altri soggetti obbligati per legge e da un numero crescente di Banche e di istituti di pagamento (Prestatori di Servizi di Pagamento - PSP). pagoPA è previsto in attuazione dell’art. 5 del CAD (Codice dell’Amministrazione Digitale) e dal D.L. 179/2012. pagoPA nasce per specifici motivi:\n\n- incrementare l’uso di modalità elettroniche di pagamento a livello di sistema Paese in considerazione del fatto che, i pagamenti verso gli Enti Creditori, sono rilevanti per numero di transazioni e volumi;\n- rendere il cittadino libero di scegliere come pagare, dando evidenza dei costi di commissione;\n- ridurre i costi di gestione degli incassi per gli Enti Creditori;\n- standardizzare a livello nazionale le modalità elettroniche di pagamento verso gli Enti Creditori."
+      "content": "pagoPA è un sistema per rendere più semplici, sicuri e trasparenti tutti i pagamenti verso la Pubblica Amministrazione. pagoPA è adottato obbligatoriamente da tutte le Pubbliche Amministrazioni e dagli altri soggetti obbligati per legge e da un numero crescente di Banche e di istituti di pagamento (Prestatori di Servizi di Pagamento - PSP). pagoPA è previsto in attuazione dell’art. 5 del CAD (Codice dell’Amministrazione Digitale) e dal D.L. 179\/2012. pagoPA nasce per specifici motivi:\n\n- incrementare l’uso di modalità elettroniche di pagamento a livello di sistema Paese in considerazione del fatto che, i pagamenti verso gli Enti Creditori, sono rilevanti per numero di transazioni e volumi;\n- rendere il cittadino libero di scegliere come pagare, dando evidenza dei costi di commissione;\n- ridurre i costi di gestione degli incassi per gli Enti Creditori;\n- standardizzare a livello nazionale le modalità elettroniche di pagamento verso gli Enti Creditori."
     },
     "36": {
       "title": "Non vedi le tue ricevute pagoPA?",
-      "content": "I dettagli delle tue transazioni eseguite con successo li trovi nella lista delle operazioni nella sezione \"Pagamenti\" dell'App IO.\nNon tutti i pagamenti da te effettuati verso la Pubblica Amministrazione sono però mostrati nell’app. In particolare, potrai vedere solo le ricevute relative a pagamenti pagoPA eseguiti tramite l’app stessa e quelli effettuati online direttamente sul sito o sull’applicazione mobile degli enti aderenti. Se un pagamento non fosse comunque presente all'interno della lista delle tue operazioni, potrebbe dipendere dal fatto che hai eseguito quel pagamento senza registrarti a pagoPA, ovvero accedendo con un indirizzo email senza effettuare l'autenticazione con SPID. Quando entri nell'App IO, autenticandoti con la tua Identità Digitale (SPID/CIE), puoi infatti visualizzare solo i pagamenti pagoPA che hai effettuato come utente registrato e identificato tramite il tuo codice fiscale. Tieni infine presente che a breve si completerà la riconciliazione degli account degli utenti che si sono registrati a pagoPA prima dell'introduzione dell'accesso tramite SPID, in modo che anche i relativi pagamenti siano tutti associati al codice fiscale"
+      "content": "I dettagli delle tue transazioni eseguite con successo li trovi nella lista delle operazioni nella sezione \"Pagamenti\" dell'App IO.\nNon tutti i pagamenti da te effettuati verso la Pubblica Amministrazione sono però mostrati nell’app. In particolare, potrai vedere solo le ricevute relative a pagamenti pagoPA eseguiti tramite l’app stessa e quelli effettuati online direttamente sul sito o sull’applicazione mobile degli enti aderenti. Se un pagamento non fosse comunque presente all'interno della lista delle tue operazioni, potrebbe dipendere dal fatto che hai eseguito quel pagamento senza registrarti a pagoPA, ovvero accedendo con un indirizzo email senza effettuare l'autenticazione con SPID. Quando entri nell'App IO, autenticandoti con la tua Identità Digitale (SPID\/CIE), puoi infatti visualizzare solo i pagamenti pagoPA che hai effettuato come utente registrato e identificato tramite il tuo codice fiscale. Tieni infine presente che a breve si completerà la riconciliazione degli account degli utenti che si sono registrati a pagoPA prima dell'introduzione dell'accesso tramite SPID, in modo che anche i relativi pagamenti siano tutti associati al codice fiscale"
     },
     "37": {
       "title": "Quali metodi di pagamento puoi aggiungere?",
-      "content": "Al momento puoi aggiungere carte di debito, credito, prepagate e PagoBANCOMAT. L'aggiunta di ulteriori metodi di pagamento è in programma per i prossimi mesi. Consulta l'elenco aggiornato alla pagina [Metodi di Pagamento](https://io.italia.it/metodi-pagamento)."
+      "content": "Al momento puoi aggiungere carte di debito, credito, prepagate e PagoBANCOMAT. L'aggiunta di ulteriori metodi di pagamento è in programma per i prossimi mesi. Consulta l'elenco aggiornato alla pagina [Metodi di Pagamento](https:\/\/io.italia.it\/metodi-pagamento)."
     },
     "38": {
       "title": "Ricevuta dell’operazione e quietanza liberatoria sono la stessa cosa?",
@@ -3256,7 +3263,7 @@
     },
     "41": {
       "title": "Come puoi rimuovere un metodo di pagamento?",
-      "content": "I tuoi metodi di pagamento sono visualizzati come card (o tessere) nella parta alta dello schermo. Interagendo con quest'area, puoi selezionare uno dei metodi aggiunti in precedenza. I tre pallini verticali (in alto a destra) danno accesso a un menu da cui puoi effettuare due operazioni: aggiungere/rimuovere il metodo di pagamento dai preferiti oppure rimuovere definitivamente il metodo di pagamento dall'app IO. Se vuoi rimuovere il metodo, seleziona questa opzione."
+      "content": "I tuoi metodi di pagamento sono visualizzati come card (o tessere) nella parta alta dello schermo. Interagendo con quest'area, puoi selezionare uno dei metodi aggiunti in precedenza. I tre pallini verticali (in alto a destra) danno accesso a un menu da cui puoi effettuare due operazioni: aggiungere\/rimuovere il metodo di pagamento dai preferiti oppure rimuovere definitivamente il metodo di pagamento dall'app IO. Se vuoi rimuovere il metodo, seleziona questa opzione."
     },
     "42": {
       "title": "Come puoi aggiungere un metodo di pagamento?",
@@ -3268,7 +3275,7 @@
     },
     "44": {
       "title": "Perché devo pagare una commissione?",
-      "content": "A fronte dell’erogazione di un servizio di pagamento, il pagatore è chiamato a corrispondere al suo PSP una commissione. Le commissioni per la gestione del pagamento sono causate da alcuni costi di servizio che i PSP sostengono per garantire un servizio di qualità: ad esempio, la continuità di erogazione, i tempi di esecuzione delle transazioni che devono essere molto bassi, costi dei circuiti internazionali nel caso di pagamento con carta di credito, sicurezza e servizi anti-frode, affidabilità dell’infrastruttura.\nPer maggiori dettagli consulta la pagina [FAQ](https://pagopa-docs-faq.readthedocs.io/it/latest/_docs/FAQ_sezioneA.html) sul sito di pagoPA.\n"
+      "content": "A fronte dell’erogazione di un servizio di pagamento, il pagatore è chiamato a corrispondere al suo PSP una commissione. Le commissioni per la gestione del pagamento sono causate da alcuni costi di servizio che i PSP sostengono per garantire un servizio di qualità: ad esempio, la continuità di erogazione, i tempi di esecuzione delle transazioni che devono essere molto bassi, costi dei circuiti internazionali nel caso di pagamento con carta di credito, sicurezza e servizi anti-frode, affidabilità dell’infrastruttura.\nPer maggiori dettagli consulta la pagina [FAQ](https:\/\/pagopa-docs-faq.readthedocs.io\/it\/latest\/_docs\/FAQ_sezioneA.html) sul sito di pagoPA.\n"
     },
     "45": {
       "title": "Perché le commissioni cambiano da un gestore all'altro?",
@@ -3280,7 +3287,7 @@
     },
     "47": {
       "title": "Come gestire i servizi su IO?",
-      "content": "Gli Identity Provider forniscono diverse modalità di registrazione gratuitamente o a pagamento e i rispettivi SPID hanno diversi livelli di sicurezza. Ecco alcuni parametri utili da considerare se non hai ancora SPID e stai decidendo a quale Identity Provider rivolgerti:\n\n- Modalità di riconoscimento che ti risulta più comoda in fase di richiesta (di persona, tramite Carta d’Identità Elettronica (CIE)*, Carta Nazionale dei Servizi (CNS), Firma Digitale o tramite webcam);\n- Livello di sicurezza di SPID desiderato;\n- Se sei già cliente di uno degli Identity Provider, potresti avere un flusso di registrazione semplificato;\n- Se sei un cittadino italiano residente all’estero, fai attenzione a chi offre il servizio per l’estero.\n\nPer maggiori informazioni puoi consultare il sito di [SPID](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/).\n"
+      "content": "Gli Identity Provider forniscono diverse modalità di registrazione gratuitamente o a pagamento e i rispettivi SPID hanno diversi livelli di sicurezza. Ecco alcuni parametri utili da considerare se non hai ancora SPID e stai decidendo a quale Identity Provider rivolgerti:\n\n- Modalità di riconoscimento che ti risulta più comoda in fase di richiesta (di persona, tramite Carta d’Identità Elettronica (CIE)*, Carta Nazionale dei Servizi (CNS), Firma Digitale o tramite webcam);\n- Livello di sicurezza di SPID desiderato;\n- Se sei già cliente di uno degli Identity Provider, potresti avere un flusso di registrazione semplificato;\n- Se sei un cittadino italiano residente all’estero, fai attenzione a chi offre il servizio per l’estero.\n\nPer maggiori informazioni puoi consultare il sito di [SPID](https:\/\/www.spid.gov.it\/cos-e-spid\/come-attivare-spid\/).\n"
     },
     "48": {
       "title": "Cosa sono le tue aree di interesse?",
@@ -3312,7 +3319,7 @@
     },
     "55": {
       "title": "Come sarà tutelata la tua privacy?",
-      "content": "IO è stato concepito e sviluppato secondo i principi e le regole imposte dalla normativa sulla protezione dei dati personali, ovvero il nuovo [Regolamento (UE) 2016/679 (cosiddetto “GDPR”)](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN) e il [Codice privacy italiano](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) (d. lgs. 196/2003, come recentemente emendato); esso è quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti. IO però rappresenta solo uno canale che le Pubbliche Amministrazioni utilizzano per interfacciarsi con i cittadini, quindi queste ultime restano titolari dei tuoi dati personali necessari per svolgere il loro mandato istituzionale, esattamente come avviene oggi. Il team di sviluppo di IO sta dialogando con il [Garante per la protezione dei dati personali](https://www.garanteprivacy.it/) per rendere IO uno strumento che migliori l’esperienza del cittadino anche sotto il profilo di accessibilità e trasparenza delle informazioni relative alla sua privacy."
+      "content": "IO è stato concepito e sviluppato secondo i principi e le regole imposte dalla normativa sulla protezione dei dati personali, ovvero il nuovo [Regolamento (UE) 2016\/679 (cosiddetto “GDPR”)](https:\/\/eur-lex.europa.eu\/legal-content\/IT\/TXT\/HTML\/?uri=CELEX:32016R0679&from=EN) e il [Codice privacy italiano](https:\/\/www.normattiva.it\/uri-res\/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) (d. lgs. 196\/2003, come recentemente emendato); esso è quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti. IO però rappresenta solo uno canale che le Pubbliche Amministrazioni utilizzano per interfacciarsi con i cittadini, quindi queste ultime restano titolari dei tuoi dati personali necessari per svolgere il loro mandato istituzionale, esattamente come avviene oggi. Il team di sviluppo di IO sta dialogando con il [Garante per la protezione dei dati personali](https:\/\/www.garanteprivacy.it\/) per rendere IO uno strumento che migliori l’esperienza del cittadino anche sotto il profilo di accessibilità e trasparenza delle informazioni relative alla sua privacy."
     },
     "56": {
       "title": "Come cancellare tutti i tuoi dati da IO?",
@@ -3320,7 +3327,7 @@
     },
     "57": {
       "title": "Hai avuto problemi durante un pagamento?",
-      "content": "Accedi alla pagina [stato dei tuoi pagamenti](ioit://PAYMENTS_HISTORY_SCREEN) per selezionare dalla lista le operazioni fallite e contattare l’assistenza.\n"
+      "content": "Accedi alla pagina [stato dei tuoi pagamenti](ioit:\/\/PAYMENTS_HISTORY_SCREEN) per selezionare dalla lista le operazioni fallite e contattare l’assistenza.\n"
     },
     "58": {
       "title": "Come faccio a richiedere il bonus?",
@@ -3344,7 +3351,7 @@
     },
     "63": {
       "title": "Come posso usare il Bonus Vacanze?",
-      "content": "Il Bonus Vacanze può essere speso nelle strutture ricettive aderenti all'iniziativa e situate sul territorio nazionale. Il Bonus attribuito al tuo nucleo familiare è identificato da un codice univoco, a cui sarà associato anche un QR code (leggibile direttamente dallo schermo del tuo telefono). Ti basterà comunicare all’albergatore questo codice, insieme al tuo codice fiscale, o mostrargli il QR code, al momento di pagare il tuo soggiorno presso la struttura dove trascorrerai le vacanze.\nPer maggiori informazioni: [io.italia.it/bonus-vacanze](https://io.italia.it/bonus-vacanze)\nInoltre, puoi consultare la [Guida d'uso](https://www.agenziaentrate.gov.it/portale/documents/20143/233439/Guida_Bonus_Vacanze_v1.pdf/1bbb218f-b17f-6ccc-4c0c-62af8d7bb205) sul sito dell'Agenzia delle Entrate."
+      "content": "Il Bonus Vacanze può essere speso nelle strutture ricettive aderenti all'iniziativa e situate sul territorio nazionale. Il Bonus attribuito al tuo nucleo familiare è identificato da un codice univoco, a cui sarà associato anche un QR code (leggibile direttamente dallo schermo del tuo telefono). Ti basterà comunicare all’albergatore questo codice, insieme al tuo codice fiscale, o mostrargli il QR code, al momento di pagare il tuo soggiorno presso la struttura dove trascorrerai le vacanze.\nPer maggiori informazioni: [io.italia.it\/bonus-vacanze](https:\/\/io.italia.it\/bonus-vacanze)\nInoltre, puoi consultare la [Guida d'uso](https:\/\/www.agenziaentrate.gov.it\/portale\/documents\/20143\/233439\/Guida_Bonus_Vacanze_v1.pdf\/1bbb218f-b17f-6ccc-4c0c-62af8d7bb205) sul sito dell'Agenzia delle Entrate."
     },
     "64": {
       "title": "Come posso condividere il Bonus con i miei familiari?",
@@ -3376,7 +3383,7 @@
     },
     "71": {
       "title": "Ho intenzione di richiedere il Bonus Vacanze ma non lo userò personalmente. Posso cederlo a un altro componente del mio nucleo familiare?",
-      "content": "Sì. Una volta richiesto e attivato il Bonus Vacanze tramite l’app IO a partire dal 1° luglio, puoi scegliere liberamente di usarlo per una vacanza in cui siano presenti tutti gli appartenenti al tuo nucleo familiare oppure solo alcuni; non è necessario che sia tu personalmente a spenderlo, né che tu sia presente.\nTi segnaliamo che l’intestatario della fattura (o documento commerciale o scontrino/ricevuta fiscale) emessa dal fornitore dei servizi turistici potrà beneficiare anche della detrazione fiscale prevista dal Bonus Vacanze nella dichiarazione dei redditi dell’anno prossimo.\n"
+      "content": "Sì. Una volta richiesto e attivato il Bonus Vacanze tramite l’app IO a partire dal 1° luglio, puoi scegliere liberamente di usarlo per una vacanza in cui siano presenti tutti gli appartenenti al tuo nucleo familiare oppure solo alcuni; non è necessario che sia tu personalmente a spenderlo, né che tu sia presente.\nTi segnaliamo che l’intestatario della fattura (o documento commerciale o scontrino\/ricevuta fiscale) emessa dal fornitore dei servizi turistici potrà beneficiare anche della detrazione fiscale prevista dal Bonus Vacanze nella dichiarazione dei redditi dell’anno prossimo.\n"
     },
     "72": {
       "title": "Come potrò condividere il Bonus con i miei familiari?",
@@ -3404,7 +3411,7 @@
     },
     "78": {
       "title": "Hai avuto problemi nell’aggiunta di un nuovo metodo di pagamento?",
-      "content": "Accedi alla pagina [stato aggiunta metodi di pagamento](ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN) per selezionare dalla lista le operazioni fallite e contattare l’assistenza.\n"
+      "content": "Accedi alla pagina [stato aggiunta metodi di pagamento](ioit:\/\/CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN) per selezionare dalla lista le operazioni fallite e contattare l’assistenza.\n"
     },
     "79": {
       "title": "La mia carta PagoBANCOMAT è anche una carta di debito. Cosa devo selezionare?",
@@ -3412,7 +3419,7 @@
     },
     "80": {
       "title": "Perché il salvataggio non va a buon fine?",
-      "content": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata agli acquisti online.\n2. La tua carta è stata messa 'in pausa'.\n3. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n\nPuoi consultare un elenco dettagliato dei metodi supportati alla pagina [Metodi di Pagamento](https://io.italia.it/metodi-pagamento)."
+      "content": "Può dipendere da diversi motivi, ma in ogni caso ti invitiamo a verificare con la tua banca.\nI casi più frequenti sono:\n1. La tua carta non è abilitata agli acquisti online.\n2. La tua carta è stata messa 'in pausa'.\n3. Non hai ancora attivato il servizio 3DS: si tratta di un sistema di sicurezza legato ai pagamenti online.\n\nPuoi consultare un elenco dettagliato dei metodi supportati alla pagina [Metodi di Pagamento](https:\/\/io.italia.it\/metodi-pagamento)."
     },
     "81": {
       "title": "La mia carta non ha alcun codice di sicurezza.",
@@ -3567,7 +3574,6 @@
           "cta": {
             "cancel": "Rimuovi",
             "confirm": {
-              "zero": "Applica filtri",
               "one": "Applica filtri ({{count}})",
               "other": "Applica filtri ({{count}})"
             }
@@ -4159,8 +4165,7 @@
           "content": "Paga un avviso in app o presso un qualsiasi canale abilitato a pagoPA."
         },
         "status": {
-          "failure": "FALLITA",
-          "success": ""
+          "failure": "FALLITA"
         },
         "receipt": {
           "a11y": {
@@ -6139,8 +6144,8 @@
         "debtor": "Debitore",
         "iuv": "IUV",
         "subject": "Oggetto del pagamento",
-        "noticeCode": "Codice avviso/IUV",
-        "noticeCodeAccessible": "Codice avviso/Identificativo Univoco Versamento",
+        "noticeCode": "Codice avviso\/IUV",
+        "noticeCodeAccessible": "Codice avviso\/Identificativo Univoco Versamento",
         "taxCode": "Codice Fiscale Ente"
       }
     }

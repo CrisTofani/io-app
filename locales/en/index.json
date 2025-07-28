@@ -11,7 +11,7 @@
   },
   "date": {
     "formats": {
-      "default": "%d/%m/%Y",
+      "default": "%d\/%m\/%Y",
       "short": "%d %B",
       "long": "%d %B %Y"
     },
@@ -24,7 +24,15 @@
       "Friday",
       "Saturday"
     ],
-    "abbr_day_names": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    "abbr_day_names": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
     "month_names": [
       " ",
       "January",
@@ -55,15 +63,16 @@
       "Nov",
       "Dec"
     ],
-    "meridian": ["am", "pm"],
+    "meridian": [
+      "am",
+      "pm"
+    ],
     "time": {
       "minutes": {
-        "zero": "0 minutes",
         "one": "1 minute",
         "other": "{{count}} minutes"
       },
       "seconds": {
-        "zero": "0 seconds",
         "one": "1 second",
         "other": "{{count}} seconds"
       }
@@ -95,16 +104,16 @@
     },
     "password": "Password",
     "username": "Username",
-    "unknown": "unknown",
     "disclaimer_beta": "If you're having trouble signing in, please let us know!",
+    "unknown": "unknown",
     "sectionStatus": {
       "moreInfo": "Want to know more?"
     },
     "accessibility": {
       "minusSymbol": "minus",
-      "switchLabel": "Select to activate",
       "reload": "Reload",
       "search": "Search",
+      "switchLabel": "Select to activate",
       "inputLabel": "{{header}}, Header",
       "textField": "{{inputLabel}}, text field",
       "description": "Description",
@@ -151,27 +160,27 @@
       "tomorrow": "tomorrow"
     },
     "dateFormats": {
-      "shortFormat": "%d/%m/%Y",
-      "shortFormatWithTime": "%d/%m/%Y, %H:%M",
+      "shortFormat": "%d\/%m\/%Y",
+      "shortFormatWithTime": "%d\/%m\/%Y, %H:%M",
       "fullFormatShortMonthLiteral": "%d %b %Y",
       "fullFormatShortMonthLiteralWithTime": "%d %b %Y, %H:%M",
       "fullFormatShortMonthLiteralWithoutTime": "%d %b %Y",
       "fullFormatFullMonthLiteral": "%d %B %Y",
       "fullMonthLiteral": "%B",
       "fullMonthLiteralWithYear": "%B %Y",
-      "numericMonthYear": "%m/%Y",
-      "shortNumericMonthYear": "%m/%-y",
       "timeFormat": "%H:%M",
       "timeFormatWithTimezone": "%H:%M:%S (%z)",
       "dayMonthWithTime": "%d %b, %H:%M",
       "dayMonthWithoutTime": "%d %b",
       "dayFullMonth": "%d %B",
+      "numericMonthYear": "%m\/%Y",
+      "shortNumericMonthYear": "%m\/%-y",
       "monthYear": "MMMM YYYY",
       "dayAndMonth": "dddd D MMMM",
-      "dayMonth": "MM/DD",
+      "dayMonth": "MM\/DD",
       "dayMonthYear": "D MMMM YYYY",
       "weekdayDayMonthYear": "dddd D MMMM YYYY",
-      "dateTimePicker": "gg/mm/yyyy"
+      "dateTimePicker": "gg\/mm\/yyyy"
     },
     "genericError": "There is a temporary problem, please try again.",
     "genericAlert": "Warning!",
@@ -185,7 +194,7 @@
       "message": "We have reported this to our team! Please close the app and start again!"
     },
     "markdown": {
-      "reference": "[demo]I am a custom demo tag at the beginning of the markdown[/demo]\n\n# Titolo h1: Lorem ipsum dolor sit amet, consectetur adipisici elit\n\nTesto semplice\n\n## Titolo h2: sed eiusmod tempor incidunt ut labore et dolore magna aliqua\n\ntesto semplice\n\n### Titolo h3: Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.\n\ntesto semplice\n\nLorem **ipsum dolor** sit amet, *consectetur* adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Unam incolunt Belgae, aliam Aquitani, tertiam.\n\n\nLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Magna pars studiorum, prodita quaerimus. Phasellus laoreet lorem vel dolor tempus vehicula. Fabio vel iudice vincam, sunt in culpa qui officia. Idque Caesaris facere voluntate liceret: sese habere. Tu quoque, Brute, fili mi, nihil timor populi, nihil!  \nNec dubitamus multa iter quae et nos invenerat. Cum sociis natoque penatibus et magnis dis parturient. Donec sed odio operae, eu vulputate felis rhoncus. Tityre, tu patulae recubans sub tegmine fagi dolor. At nos hinc posthac, sitientis piros Afros. Non equidem invideo, miror magis posuere velit aliquet.  \nHi omnes lingua, institutis, legibus inter se differunt. Quae vero auctorem tractata ab fiducia dicuntur. Plura mihi bona sunt, inclinet, amari petere vellent. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna.\n\n[demo]I am a custom demo tag in the middle of the markdown[/demo]\n\nLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Fabio vel iudice vincam, sunt in culpa qui officia.\n\n\n> Quote o indent\n\nLista:\n\n- uno\n- due\n- tre\n\nLista numerata:\n\n1. uno\n2. due\n3. tre\n\n\nLink\n\n[esempio di link](https://io.italia.it)\n\n\nEsempio link interni\n\n[home preferenze](ioit://PREFERENCES_HOME),\n[servizi](ioit://SERVICES_HOME),\n[profilo](ioit://PROFILE_MAIN),\n[portafoglio](ioit://WALLET_HOME),\n[privacy](ioit://PROFILE_PRIVACY_MAIN),\n[Termini e condizioni d'uso](ioit://PROFILE_TOS),\n[privacy policy](ioit://PROFILE_PRIVACY)\n[lista messaggi](ioit://MESSAGES_LIST)\n\n\nhttps://help.github.com/articles/basic-writing-and-formatting-syntax/\n",
+      "reference": "[demo]I am a custom demo tag at the beginning of the markdown[\/demo]\n\n# Titolo h1: Lorem ipsum dolor sit amet, consectetur adipisici elit\n\nTesto semplice\n\n## Titolo h2: sed eiusmod tempor incidunt ut labore et dolore magna aliqua\n\ntesto semplice\n\n### Titolo h3: Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.\n\ntesto semplice\n\nLorem **ipsum dolor** sit amet, *consectetur* adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Unam incolunt Belgae, aliam Aquitani, tertiam.\n\n\nLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Magna pars studiorum, prodita quaerimus. Phasellus laoreet lorem vel dolor tempus vehicula. Fabio vel iudice vincam, sunt in culpa qui officia. Idque Caesaris facere voluntate liceret: sese habere. Tu quoque, Brute, fili mi, nihil timor populi, nihil!  \nNec dubitamus multa iter quae et nos invenerat. Cum sociis natoque penatibus et magnis dis parturient. Donec sed odio operae, eu vulputate felis rhoncus. Tityre, tu patulae recubans sub tegmine fagi dolor. At nos hinc posthac, sitientis piros Afros. Non equidem invideo, miror magis posuere velit aliquet.  \nHi omnes lingua, institutis, legibus inter se differunt. Quae vero auctorem tractata ab fiducia dicuntur. Plura mihi bona sunt, inclinet, amari petere vellent. Sed haec quis possit intrepidus aestimare tellus. Curabitur blandit tempus ardua ridiculus sed magna.\n\n[demo]I am a custom demo tag in the middle of the markdown[\/demo]\n\nLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Fabio vel iudice vincam, sunt in culpa qui officia.\n\n\n> Quote o indent\n\nLista:\n\n- uno\n- due\n- tre\n\nLista numerata:\n\n1. uno\n2. due\n3. tre\n\n\nLink\n\n[esempio di link](https:\/\/io.italia.it)\n\n\nEsempio link interni\n\n[home preferenze](ioit:\/\/PREFERENCES_HOME),\n[servizi](ioit:\/\/SERVICES_HOME),\n[profilo](ioit:\/\/PROFILE_MAIN),\n[portafoglio](ioit:\/\/WALLET_HOME),\n[privacy](ioit:\/\/PROFILE_PRIVACY_MAIN),\n[Termini e condizioni d'uso](ioit:\/\/PROFILE_TOS),\n[privacy policy](ioit:\/\/PROFILE_PRIVACY)\n[lista messaggi](ioit:\/\/MESSAGES_LIST)\n\n\nhttps:\/\/help.github.com\/articles\/basic-writing-and-formatting-syntax\/\n",
       "decodeError": "Message can't be decoded"
     },
     "buttons": {
@@ -418,7 +427,7 @@
     },
     "main": {
       "title": "Profile",
-      "logout": "Logout/Exit",
+      "logout": "Logout\/Exit",
       "forgetCurrentSession": "Forget current session",
       "clearAsyncStorage": "Clear AsyncStorage",
       "dumpAsyncStorage": "Dump AsyncStorage content to console",
@@ -536,7 +545,7 @@
           "updated": "We updated our Terms and conditions",
           "infobox": "It is necessary to read and accept the Terms and Conditions",
           "contextualHelpTitlePolicy": "What is the information on the processing of personal data",
-          "contextualHelpContentPolicy": "According to what established by the art. 13 of the EU Regulation n. 2016/679 (commonly known as GDPR), here you can find the complete description of how the IO app handles personal data.\n",
+          "contextualHelpContentPolicy": "According to what established by the art. 13 of the EU Regulation n. 2016\/679 (commonly known as GDPR), here you can find the complete description of how the IO app handles personal data.\n",
           "contextualHelpTitle": "Your privacy settings",
           "contextualHelpContent": "**Here you can find all the information related to your privacy profile:** details on the treatment of personal data, possibility to delete your account and to export all the personal data associated with your profile.\n"
         },
@@ -568,7 +577,7 @@
             "gdpr": {
               "description": {
                 "one": "We only work with suppliers who process data ",
-                "two": "in a transparent and secure way."
+                "other": ""
               },
               "cta": "Who are the suppliers"
             },
@@ -630,6 +639,9 @@
           "switchTitle": "Active session login"
         }
       },
+      "trial": {
+        "titleSection": "Join a trial"
+      },
       "experimentalEnvironment": "Experimental interface",
       "newScanSection": "New 'Scan' feature",
       "sessionRefresh": "Activate Session Refresh",
@@ -637,9 +649,6 @@
       "backendVersion": "Backend Version",
       "debugMode": "Debug mode",
       "designSystem": "Design System",
-      "trial": {
-        "titleSection": "Join a trial"
-      },
       "addTestCard": {
         "title": "Add test card"
       },
@@ -802,7 +811,7 @@
     "title": "Touch the card",
     "layCardMessageHeader": "Touch your Electronic ID Card on the back of your phone for a few seconds.",
     "layCardMessageFooter": "If you don't know exactly where is the NFC sensor, move the card to different points and wait a few seconds until you hear a sound.",
-    "booking_url": "https://www.cartaidentita.interno.gov.it/cittadini/sistema-di-prenotazione-della-cie/"
+    "booking_url": "https:\/\/www.cartaidentita.interno.gov.it\/cittadini\/sistema-di-prenotazione-della-cie\/"
   },
   "spid": {
     "login": "LOGIN",
@@ -856,12 +865,12 @@
         }
       },
       "contentTitleCie": "Don't have SPID or CIE?",
-      "cie_information_request": "**CIE**, the Electronic Identity Card, allows you to access all the services of the Public Administration. You can use it to conveniently access IO on your smartphone. You will also need the pin that is given to you half in the registry and half by mail together with the card.\n\n## CIE is safe\n\nTogether with SPID, CIE is the only tool that allows you to certify your digital identity with the highest level of security.\n\n## How to get CIE\n\nYou can apply for the CIE at the registry office of your municipality of residence: to learn more go to [https://www.cartaidentita.interno.gov.it](https://www.cartaidentita.interno.gov.it)\n",
+      "cie_information_request": "**CIE**, the Electronic Identity Card, allows you to access all the services of the Public Administration. You can use it to conveniently access IO on your smartphone. You will also need the pin that is given to you half in the registry and half by mail together with the card.\n\n## CIE is safe\n\nTogether with SPID, CIE is the only tool that allows you to certify your digital identity with the highest level of security.\n\n## How to get CIE\n\nYou can apply for the CIE at the registry office of your municipality of residence: to learn more go to [https:\/\/www.cartaidentita.interno.gov.it](https:\/\/www.cartaidentita.interno.gov.it)\n",
       "spid_or_cie": "To use IO you must have one of these digital tools, which certify your identity.",
       "request_cie": "Request CIE",
       "request_spid": "Request SPID",
       "contextualHelpTitle": "How to register in the IO app",
-      "contextualHelpContent": "**You can register in the IO app by using your SPID identity (Public Digital Identity System) or your CIE (Electronic Identity Card).** Your security is guaranteed thanks to the use of those strong authentication methods.  \nIf you don’t have a SPID identity and you want to request one, you can visit [spid.gov.it](https://www.spid.gov.it) and choose one of the proposed identity providers. If you are interested in applying for the CIE, you can visit the website of your municipality for more information, and book an appointment with them.\n",
+      "contextualHelpContent": "**You can register in the IO app by using your SPID identity (Public Digital Identity System) or your CIE (Electronic Identity Card).** Your security is guaranteed thanks to the use of those strong authentication methods.  \nIf you don’t have a SPID identity and you want to request one, you can visit [spid.gov.it](https:\/\/www.spid.gov.it) and choose one of the proposed identity providers. If you are interested in applying for the CIE, you can visit the website of your municipality for more information, and book an appointment with them.\n",
       "loginSpid": "Login with SPID",
       "loginCie": "Login with CIE",
       "show_wallet": "Show my Documents",
@@ -1025,7 +1034,7 @@
       "genericTitle": "Login with CIE",
       "cie": "CIE",
       "noDataTitle": "To use IO you must authorize the sending of data",
-      "authToSendData": "IO treats your personal data in respect of security and your privacy, following the indications of the **General Data Protection Regulation** issued by the European Union ([GDPR, Regulation No. 2016/679](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32016R0679)).\n\nIf you want you can try to log in again.\n",
+      "authToSendData": "IO treats your personal data in respect of security and your privacy, following the indications of the **General Data Protection Regulation** issued by the European Union ([GDPR, Regulation No. 2016\/679](https:\/\/eur-lex.europa.eu\/legal-content\/IT\/TXT\/?uri=CELEX%3A32016R0679)).\n\nIf you want you can try to log in again.\n",
       "nfc": {
         "apduNotSupported": "The operating system doesn't support the reading of the Electronic Identity Card. Try using SPID to enter the app.",
         "retry": "Retry",
@@ -1068,7 +1077,7 @@
         "bottomSheetCTA": "Did you forget your PIN?",
         "contextualHelpTitle": "Where can I find my PIN and PUK?",
         "contextualHelpBody": "The **PIN** code consists of 8 digits:  \n• the first 4 digits you received at the registry office;  \n• the last 4 digits you received at home, along with your electronic ID card. \n  \nPlease enter them following this order.  \nThe PUK code is needed to unlock your **PIN**, in case of 3 wrong attempts. **PUK** consists of 8 digits and it's issued along with the **PIN**.\n",
-        "contextualHelpCTA": "Did you forget your PIN/PUK?"
+        "contextualHelpCTA": "Did you forget your PIN\/PUK?"
       },
       "pinTempLocked": {
         "title": "Card temporarily locked"
@@ -1114,7 +1123,7 @@
       "contentTitle": "Don't have SPID?"
     },
     "spid_information": {
-      "spid": "**SPID**, the Public Digital Identity System, allows you to access all Public Administration services with a single Digital Identity (username and password). [Read more](https://www.spid.gov.it)\n\n## SPID is secure\n\nSPID allows you to do things online that you could only do in person: to register for SPID you will then have to **certify your identity** by completing the recognition at an Identity Provider. Here's what you need to do:\n",
+      "spid": "**SPID**, the Public Digital Identity System, allows you to access all Public Administration services with a single Digital Identity (username and password). [Read more](https:\/\/www.spid.gov.it)\n\n## SPID is secure\n\nSPID allows you to do things online that you could only do in person: to register for SPID you will then have to **certify your identity** by completing the recognition at an Identity Provider. Here's what you need to do:\n",
       "headerTitle": "What is SPID?",
       "contentTitle": "Don't have SPID?",
       "subtitle": "SPID is safe"
@@ -1150,9 +1159,9 @@
       "contextualHelpContent": "**In the log in page, you are asked to enter your password.** Your password is the alphanumeric code that you set when you activated your SPID identity.  \nIf you don’t remember it, please select password recovery to start the related procedure with your specific Identity Provider.\n",
       "contextualHelpTitle2": "Need support on the login by SPID?",
       "openTicket": "Create a ticket",
-      "recoverUsername": "Recover the username",
       "recoverDescription": "If you're missing your password, you can recover it by tapping on the following button.",
       "dualRecoverDescription": "If you're missing your credentials, you can recover them by tapping on the following buttons.",
+      "recoverUsername": "Recover the username",
       "recoverPassword": "Recover the password",
       "poste_id": {
         "bottom_sheet": {
@@ -1282,8 +1291,8 @@
     "validate": {
       "title": "Remember to validate your email address",
       "header": "Email Validation",
-      "content1": "We sent an email to <b>{{email}}</b> with a link to validate your email: click simply on that link.<br/> Until you will not validate your email address, some app functionalities (payments, messages forwarding by email, etc.) will not be available, but you will be able to use some other functions anyway (i.e. services, messages, etc.)",
-      "content2": "Some functionalities of IO require you validate your email address. <br/> We sent an email to <b>{{email}}</b>: open your email client and click on the link.",
+      "content1": "We sent an email to <b>{{email}}<\/b> with a link to validate your email: click simply on that link.<br\/> Until you will not validate your email address, some app functionalities (payments, messages forwarding by email, etc.) will not be available, but you will be able to use some other functions anyway (i.e. services, messages, etc.)",
+      "content2": "Some functionalities of IO require you validate your email address. <br\/> We sent an email to <b>{{email}}<\/b>: open your email client and click on the link.",
       "cta": "Send a new validation email",
       "sent": "Email sent",
       "send_validation_ok": "Email Validation sent",
@@ -1297,8 +1306,8 @@
       "title": "We have sent you an email",
       "subtitle": "To confirm your address, follow the instructions we have sent to",
       "link": "Change email address",
-      "buttonlabelsent": "Email sent!",
       "countdowntext": "Request new email in",
+      "buttonlabelsent": "Email sent!",
       "buttonlabelsentagain": "Send email again",
       "toast": "Done! Check your mailbox."
     },
@@ -1531,16 +1540,16 @@
       }
     },
     "confirm": {
+      "a11y": {
+        "announce": "Payment Summary"
+      },
       "totalAmount": "Totale da pagare",
       "pay": "Paga",
       "payWith": "Paga con",
       "fee": "Commissione",
       "feeAppliedBy": "Applicata da",
       "editButton": "Modifica",
-      "termsAndConditions": "By continuing, you accept the [Terms and Conditions of Use](https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/) and confirm that you have read the [Privacy Policy](https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/) of {{pspName}}.",
-      "a11y": {
-        "announce": "Payment Summary"
-      }
+      "termsAndConditions": "By continuing, you accept the [Terms and Conditions of Use](https:\/\/www.pagopa.gov.it\/it\/prestatori-servizi-di-pagamento\/elenco-PSP-attivi\/) and confirm that you have read the [Privacy Policy](https:\/\/www.pagopa.gov.it\/it\/prestatori-servizi-di-pagamento\/elenco-PSP-attivi\/) of {{pspName}}."
     }
   },
   "wallet": {
@@ -1818,7 +1827,6 @@
       "outcome": {
         "SUCCESS": {
           "title": "Payment method added successfully!",
-          "subtitle": "",
           "primaryAction": "Vedi dettagli",
           "secondaryAction": "Continue"
         },
@@ -1844,7 +1852,6 @@
         },
         "CANCELED_BY_USER": {
           "title": "L'operazione è stata annullata",
-          "subtitle": "",
           "primaryAction": "Chiudi"
         },
         "INVALID_SESSION": {
@@ -1854,7 +1861,6 @@
         },
         "ALREADY_ONBOARDED": {
           "title": "Hai già aggiunto questo metodo",
-          "subtitle": "",
           "primaryAction": "Chiudi"
         },
         "BPAY_NOT_FOUND": {
@@ -1885,7 +1891,7 @@
       "amex": "Payments with American Express cards, for amounts above €1000, are currently not possible."
     },
     "contextualHelpTitle": "About this section",
-    "contextualHelpContent": "**The Wallet section lists your payment methods, your Bonuses and discount cards and the history of transactions made with PagoPA,** the payment platform for the Public Administration. Here you can also pay directly all the payment notices with the PagoPA logo: scan the QR code printed on the paper notice and complete the payment directly in the app. IO currently supports credit/debit card payments, but other payment methods will be added soon.",
+    "contextualHelpContent": "**The Wallet section lists your payment methods, your Bonuses and discount cards and the history of transactions made with PagoPA,** the payment platform for the Public Administration. Here you can also pay directly all the payment notices with the PagoPA logo: scan the QR code printed on the paper notice and complete the payment directly in the app. IO currently supports credit\/debit card payments, but other payment methods will be added soon.",
     "creditcards": "Credit Cards",
     "paymentMethods": "Payment methods",
     "paymentMethod": "Payment method",
@@ -1929,6 +1935,11 @@
       "title": "Text confirmation code",
       "header": "Confirmation code",
       "info": "Insert the code that was sent by text to your mobile phone"
+    },
+    "transactionDetails": "Transaction details",
+    "transactionFullReason": "Full reason",
+    "detailsTransaction": {
+      "contextualHelpContent": "**Here you can view a summary of your transaction details.** This transaction may have taken place in the IO app, or in another website using PagoPa as payment platform.  \nPlease remember that if you have completed payments with PagoPa as authenticated user before installing the IO app, you will find here the details of those transactions as well.\n"
     },
     "saveCard": {
       "contextualHelpTitle": "Save a card to IO",
@@ -2004,7 +2015,7 @@
       "fetchPspFailure": "Temporary error, please retry",
       "noPspsAvailable": "This payment method cannot be used",
       "contextualHelpTitle": "Payment method's choice",
-      "contextualHelpContent": "**You can choose the method of payment.**\nIO currently only supports credit/debit card payments but other payment methods such as PayPal and others will be added soon.\n",
+      "contextualHelpContent": "**You can choose the method of payment.**\nIO currently only supports credit\/debit card payments but other payment methods such as PayPal and others will be added soon.\n",
       "pickPaymentMethod": {
         "title": "What method do you want to pay with?",
         "description": "{{firstElement}} · {{secondElement}}",
@@ -2029,6 +2040,9 @@
       }
     },
     "firstTransactionSummary": {
+      "a11y": {
+        "announce": "Notice Summary"
+      },
       "loading": "Recupero delle informazioni in corso",
       "title": "Payment information",
       "amount": "Amount",
@@ -2045,9 +2059,9 @@
       "date": "Date and Time",
       "iuv": "IUV code",
       "entityCode": "Payee Fiscal Code",
+      "updatedAmount": "Updated amount",
       "fee": "Fee",
       "idTransaction": "Transaction identification code",
-      "updatedAmount": "Updated amount",
       "amountInfo": {
         "title": "Is the amount different from the one on the pagoPA notice?",
         "message": "When the amount changes, it means it has been updated automatically. \n\nIf it is higher, there may be interest, penalties, or notification costs.\n\nIf the pagoPA notice concerns a legally significant communication, the increase in the amount to be paid may depend on various factors, such as:\n- receiving the communication via registered mail (as printing and delivery costs may be charged to the recipient);\n- the number of delivery attempts.\nFor further details, contact the Payee.",
@@ -2060,10 +2074,10 @@
         "errorCode": "Codice errore",
         "messageId": "ID messaggio",
         "copyToClipboard": "Copia dati per l'assistenza"
-      },
-      "a11y": {
-        "announce": "Notice Summary"
       }
+    },
+    "errorTransaction": {
+      "submitBugText": "If you can't solve the problem, please let us know with the '?' icon at the top right. Thank you!"
     },
     "insertManually": {
       "header": "Enter notice data",
@@ -2076,14 +2090,6 @@
       "proceed": "Proceed with the transaction",
       "contextualHelpTitle": "Manually insert notice",
       "contextualHelpContent": "**You can proceed with the payment of a notice by entering the data found in the notice**: the Notice Code and the tax code of the creditor.\nMake sure that the notice supports payment through pagoPA, the payment platform for the Public Administration."
-    },
-    "errorTransaction": {
-      "submitBugText": "If you can't solve the problem, please let us know with the '?' icon at the top right. Thank you!"
-    },
-    "transactionDetails": "Transaction details",
-    "transactionFullReason": "Full reason",
-    "detailsTransaction": {
-      "contextualHelpContent": "**Here you can view a summary of your transaction details.** This transaction may have taken place in the IO app, or in another website using PagoPa as payment platform.  \nPlease remember that if you have completed payments with PagoPa as authenticated user before installing the IO app, you will find here the details of those transactions as well.\n"
     },
     "total": "Total",
     "amount": "Amount €",
@@ -2106,7 +2112,7 @@
     "noTransactionsInTransactionsScreen": "You never used this payment method to pay with IO or pagoPA. In this list you will only see the transactions performed with this method.",
     "payNotice": "Pay notice",
     "latestTransactions": "Your latest transactions",
-    "creditDebitCards": "Credit/Debit Cards",
+    "creditDebitCards": "Credit\/Debit Cards",
     "addPaymentMethodTitle": "Add a method",
     "continue": "Go to payment",
     "backToPayments": "Back to payments",
@@ -2187,7 +2193,7 @@
       "values": {
         "holder": "John Doe",
         "pan": "0000 0000 0000 0000",
-        "expirationDate": "mm/yy",
+        "expirationDate": "mm\/yy",
         "securityCode": "•••",
         "securityCode4D": "••••"
       },
@@ -2322,6 +2328,10 @@
         "title": "Authorization declined",
         "description": "You have probably reached your card limit. Check with your bank before trying again."
       },
+      "code15": {
+        "title": "Enable in-app payments first",
+        "description": "Before trying again, select the method in your Wallet and turn on the 'in-app payments' feature."
+      },
       "code18": {
         "title": "An unexpected error has occurred",
         "description": "If this problem persists, please contact support."
@@ -2329,10 +2339,6 @@
       "code19": {
         "title": "Authorization declined",
         "description": "You may have removed pagoPA from your PayPal automatic payments. Delete your PayPal account from the Wallet, add it back and try to make the payment again."
-      },
-      "code15": {
-        "title": "Enable in-app payments first",
-        "description": "Before trying again, select the method in your Wallet and turn on the 'in-app payments' feature."
       },
       "addCreditCard": {
         "success": {
@@ -2501,7 +2507,7 @@
         },
         "TIMEOUT": {
           "title": "La sessione è scaduta",
-          "subtitle": "Non è stato addebitato alcun importo.\\nPer la tua sicurezza, hai a disposizione un tempo limitato per completare l’operazione."
+          "subtitle": "Non è stato addebitato alcun importo.\nPer la tua sicurezza, hai a disposizione un tempo limitato per completare l’operazione."
         },
         "CIRCUIT_ERROR": {
           "title": "Il circuito della carta non è supportato"
@@ -2519,7 +2525,7 @@
         },
         "EXCESSIVE_AMOUNT": {
           "title": "Autorizzazione negata",
-          "subtitle": "Non è stato addebitato alcun importo.\\nProbabilmente hai sforato i limiti di spesa previsti dalla tua banca."
+          "subtitle": "Non è stato addebitato alcun importo.\nProbabilmente hai sforato i limiti di spesa previsti dalla tua banca."
         },
         "INVALID_METHOD": {
           "title": "Il metodo di pagamento non è supportato"
@@ -2637,7 +2643,8 @@
     "contextualHelpTitle": "About this section",
     "contextualHelpContent": "**The Messages section collects all the incoming communication from the different Administrations that offer their services through IO.** By interacting with specific messages, you can directly set reminders for deadlines or proceed to start a payment process.   \nThe messages are divided between received (which contain all the messages arrived in the inbox and not archived), deadlines (which display only messages that contain an expiration date, to facilitate the management of those tasks), and archived (which store all the archived messages). In order to archive a message, it’s enough to do a long press on the area of the message you wish to archive, and then select the “archive” button that appears on the screen.\"\n",
     "counting": {
-      "one": "You have 1 message"
+      "one": "You have 1 message",
+      "other": ""
     },
     "tab": {
       "inbox": "Inbox",
@@ -2751,7 +2758,7 @@
     "errorText": "We were unable to load the details of your message",
     "retryText": "It's probably a temporary error... please try again!",
     "submitBugText": "If the problem is not resolved, report it with the '?' icon at the top right, thank you!",
-    "addMemo": "Add a reminder on <b>{{date}}</b> at <b>{{hour}}</b>",
+    "addMemo": "Add a reminder on <b>{{date}}<\/b> at <b>{{hour}}<\/b>",
     "dateSending": "Date and time sending:",
     "sender": "Sender:",
     "service": "Service:",
@@ -3104,11 +3111,11 @@
     },
     "2": {
       "title": "How can you get SPID?",
-      "content": "To get your SPID credentials you must contact Aruba, EtnaHiTech, Infocamere, Infocert, Namirial, Poste, Register, Sielte, Tim, Lepida o TeamSystem. These subjects (called identity providers) offer you different ways to request and obtain SPID, you can choose the one that best suits your needs. All the information on where and how to ask for your SPID credentials on the site [https://www.spid.gov.it/cos-e-spid/come-attivare-spid/](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/).\n"
+      "content": "To get your SPID credentials you must contact Aruba, EtnaHiTech, Infocamere, Infocert, Namirial, Poste, Register, Sielte, Tim, Lepida o TeamSystem. These subjects (called identity providers) offer you different ways to request and obtain SPID, you can choose the one that best suits your needs. All the information on where and how to ask for your SPID credentials on the site [https:\/\/www.spid.gov.it\/cos-e-spid\/come-attivare-spid\/](https:\/\/www.spid.gov.it\/cos-e-spid\/come-attivare-spid\/).\n"
     },
     "3": {
       "title": "Have you lost your SPID credentials?",
-      "content": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https://guide.pec.it/spid/recupero-dati/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https://etnaid.eht.eu/signup/forgotPassword), [Infocert](https://my.infocert.it/selfcare/#/recoveryPin), [Namirial](https://portale.namirialtsp.com/private/user/spid_reset.php), [Poste](https://posteid.poste. en/recuperocredenziali.shtml), [Register, in case of forgotten username](https://spid.register.it/selfcare/recovery/username), [Register, in case of forgotten password](https://spid.register.it/selfcare/recovery/password), [Sielte, in case of forgotten password](https://myid.sieltecloud.it/profile/recovery/forgotPassword), [Tim, in case of forgotten username](https://login.id.tim.it/mps/fu.php), [Tim, in case of forgotten password](https://login.id.tim.it/mps/fp.php), [Lepida](https://id.lepida.it/idm/app/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https://spid.teamsystem.com/it/auth/usernameLost), [TeamSystem, in case of forgotten password](https://spid.teamsystem.com/it/auth/passwordLost)."
+      "content": "Don't worry: you can recover them at any time. Select your Identity Provider to find out how to proceed: [Aruba](https:\/\/guide.pec.it\/spid\/recupero-dati\/procedure-di-recupero-dati-smarriti.aspx), [EtnaHiTech, in case of forgotten password](https:\/\/etnaid.eht.eu\/signup\/forgotPassword), [Infocert](https:\/\/my.infocert.it\/selfcare\/#\/recoveryPin), [Namirial](https:\/\/portale.namirialtsp.com\/private\/user\/spid_reset.php), [Poste](https:\/\/posteid.poste. en\/recuperocredenziali.shtml), [Register, in case of forgotten username](https:\/\/spid.register.it\/selfcare\/recovery\/username), [Register, in case of forgotten password](https:\/\/spid.register.it\/selfcare\/recovery\/password), [Sielte, in case of forgotten password](https:\/\/myid.sieltecloud.it\/profile\/recovery\/forgotPassword), [Tim, in case of forgotten username](https:\/\/login.id.tim.it\/mps\/fu.php), [Tim, in case of forgotten password](https:\/\/login.id.tim.it\/mps\/fp.php), [Lepida](https:\/\/id.lepida.it\/idm\/app\/recupero_credenziali.jsp), [TeamSystem, in case of forgotten username](https:\/\/spid.teamsystem.com\/it\/auth\/usernameLost), [TeamSystem, in case of forgotten password](https:\/\/spid.teamsystem.com\/it\/auth\/passwordLost)."
     },
     "4": {
       "title": "What is CIE?",
@@ -3116,7 +3123,7 @@
     },
     "5": {
       "title": "How can you get CIE?",
-      "content": "You can connect to the address [https://www.prenotazionicie.interno.gov.it](https://www.prenotazionicie.interno.gov.it) and type the name of your municipality, to check whether it uses the CIE Agenda online dating system. If yes, you can proceed to book the appointment directly from the site, without any login. Alternatively, you can always ask for an appointment online on the website of your municipality, or by going to one of the municipal offices."
+      "content": "You can connect to the address [https:\/\/www.prenotazionicie.interno.gov.it](https:\/\/www.prenotazionicie.interno.gov.it) and type the name of your municipality, to check whether it uses the CIE Agenda online dating system. If yes, you can proceed to book the appointment directly from the site, without any login. Alternatively, you can always ask for an appointment online on the website of your municipality, or by going to one of the municipal offices."
     },
     "6": {
       "title": "What is an Identity Provider?",
@@ -3124,7 +3131,7 @@
     },
     "7": {
       "title": "How can you choose an Identity Provider?",
-      "content": "Identity Providers provide different registration methods for free or for a fee and the respective SPIDs have different levels of security. Here are some useful parameters to consider if you don't have SPID yet and are deciding which Identity Provider to contact:\n\n- Method of recognition that is most convenient for you when applying (in person, via the Electronic Identity Card (CIE) *, National Service Card (CNS), Digital Signature or via webcam);\n- SPID security level desired;\n- If you are already a customer of one of the Identity Providers, you may have a simplified registration flow;\n- If you are an Italian citizen residing abroad, pay attention to who offers the service for abroad.\n\nFor more information you can consult the [SPID website](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/).\n"
+      "content": "Identity Providers provide different registration methods for free or for a fee and the respective SPIDs have different levels of security. Here are some useful parameters to consider if you don't have SPID yet and are deciding which Identity Provider to contact:\n\n- Method of recognition that is most convenient for you when applying (in person, via the Electronic Identity Card (CIE) *, National Service Card (CNS), Digital Signature or via webcam);\n- SPID security level desired;\n- If you are already a customer of one of the Identity Providers, you may have a simplified registration flow;\n- If you are an Italian citizen residing abroad, pay attention to who offers the service for abroad.\n\nFor more information you can consult the [SPID website](https:\/\/www.spid.gov.it\/cos-e-spid\/come-attivare-spid\/).\n"
     },
     "8": {
       "title": "Is it possible to have more than one digital identity (SPID)?",
@@ -3148,7 +3155,7 @@
     },
     "14": {
       "title": "How can you read the information on the processing of personal data at a later time?",
-      "content": "Once the authentication flow is finished you will find yourself inside the IO app. In the profile section, under the heading privacy, you can consult at any time the information on the processing of personal data of users of the IO app (art.13 of EU Regulation n.2016 / 679)."
+      "content": "Once the authentication flow is finished you will find yourself inside the IO app. In the profile section, under the heading privacy, you can consult at any time the information on the processing of personal data of users of the IO app (art.13 of EU Regulation n.2016 \/ 679)."
     },
     "15": {
       "title": "What is the PIN of the electronic identity card?",
@@ -3208,7 +3215,7 @@
     },
     "29": {
       "title": "Is there an error in the communication you received?",
-      "content": "If you think there is an error in the message you have received, you can use the contact details of the service provider to make a report or ask for clarifications.\nThe contact details are available from the details area of the message or in the 'Services' section of the IO app, by selecting the specific body and service in question.\nDepending on the contact methods managed by the individual body and service, the contact details may include: physical counter address, telephone number, email and / or PEC address, website, online assistance, mobile app."
+      "content": "If you think there is an error in the message you have received, you can use the contact details of the service provider to make a report or ask for clarifications.\nThe contact details are available from the details area of the message or in the 'Services' section of the IO app, by selecting the specific body and service in question.\nDepending on the contact methods managed by the individual body and service, the contact details may include: physical counter address, telephone number, email and \/ or PEC address, website, online assistance, mobile app."
     },
     "30": {
       "title": "Does this institution have permission to write to you?",
@@ -3216,7 +3223,7 @@
     },
     "31": {
       "title": "Do you want to contact the institution?",
-      "content": "From the details of the message, you can view information relating to the specific service and provider. If you follow the link to the service profile you will find the extended information, and the contact details through which you can contact the service provider.\nDepending on the contact methods managed by the individual body and service, the contact details may include: physical counter address, telephone number, email and / or PEC address, website, online assistance, mobile app."
+      "content": "From the details of the message, you can view information relating to the specific service and provider. If you follow the link to the service profile you will find the extended information, and the contact details through which you can contact the service provider.\nDepending on the contact methods managed by the individual body and service, the contact details may include: physical counter address, telephone number, email and \/ or PEC address, website, online assistance, mobile app."
     },
     "32": {
       "title": "What is the message identification code?",
@@ -3224,7 +3231,7 @@
     },
     "33": {
       "title": "Is it possible to pay a notice that you have not received through the IO app?",
-      "content": "Of course, if the notice supports payment via pagoPA you can proceed and make the transaction directly from the IO app.\nYou can verify that the payment model is suitable if the QR code and / or the Notice Code is available. The IO app, from the 'Wallet' section, allows both the scanning of the QR code and the manual entry of the IUV, depending on how comfortable it is to you."
+      "content": "Of course, if the notice supports payment via pagoPA you can proceed and make the transaction directly from the IO app.\nYou can verify that the payment model is suitable if the QR code and \/ or the Notice Code is available. The IO app, from the 'Wallet' section, allows both the scanning of the QR code and the manual entry of the IUV, depending on how comfortable it is to you."
     },
     "34": {
       "title": "What is a QR code?",
@@ -3232,19 +3239,19 @@
     },
     "35": {
       "title": "What is pagoPA",
-      "content": "pagoPA is a system for making payments to the Public Administration simpler, safer and more transparent. pagoPA is compulsorily adopted by all public administrations and by other subjects obliged by law and by an increasing number of banks and payment institutions (Paid Service Providers - PSP). pagoPA is expected to implement art. 5 of the CAD (Digital Administration Code) and Legislative Decree 179/2012. pagoPA was born for specific reasons:\n\n- increase the use of electronic payment methods at the country system level in consideration of the fact that payments to Creditor Bodies are relevant for the number of transactions and volumes;\n- make the citizen free to choose how to pay, highlighting the commission costs;\n- reduce the costs of managing collections for creditors;\n- to standardize at national level the electronic methods of payment to creditors."
+      "content": "pagoPA is a system for making payments to the Public Administration simpler, safer and more transparent. pagoPA is compulsorily adopted by all public administrations and by other subjects obliged by law and by an increasing number of banks and payment institutions (Paid Service Providers - PSP). pagoPA is expected to implement art. 5 of the CAD (Digital Administration Code) and Legislative Decree 179\/2012. pagoPA was born for specific reasons:\n\n- increase the use of electronic payment methods at the country system level in consideration of the fact that payments to Creditor Bodies are relevant for the number of transactions and volumes;\n- make the citizen free to choose how to pay, highlighting the commission costs;\n- reduce the costs of managing collections for creditors;\n- to standardize at national level the electronic methods of payment to creditors."
     },
     "36": {
       "title": "Don't see your pagoPA receipts?",
-      "content": "The details of your successful transactions can be found in the list of operations in the \"Payments\" section of the IO App.\nHowever, not all payments made by you to the Public Administration are shown in the app. In particular, you will only be able to see receipts relating to pagoPA payments made through the app itself and those made online directly on the website or mobile application of the participating entities. If a payment is still not present in the list of your operations, it could depend on the fact that you have made that payment without registering with pagoPA, or by logging in with an email address without authenticating with SPID. When you enter the IO App, authenticating with your Digital Identity (SPID / CIE), you can in fact view only the pagoPA payments you made as a registered user and identified by your tax code. Finally, keep in mind that the reconciliation of the accounts of the users who registered on pagoPA before the introduction of access via SPID will be completed shortly, so that the related payments are all associated with the tax code."
+      "content": "The details of your successful transactions can be found in the list of operations in the \"Payments\" section of the IO App.\nHowever, not all payments made by you to the Public Administration are shown in the app. In particular, you will only be able to see receipts relating to pagoPA payments made through the app itself and those made online directly on the website or mobile application of the participating entities. If a payment is still not present in the list of your operations, it could depend on the fact that you have made that payment without registering with pagoPA, or by logging in with an email address without authenticating with SPID. When you enter the IO App, authenticating with your Digital Identity (SPID \/ CIE), you can in fact view only the pagoPA payments you made as a registered user and identified by your tax code. Finally, keep in mind that the reconciliation of the accounts of the users who registered on pagoPA before the introduction of access via SPID will be completed shortly, so that the related payments are all associated with the tax code."
     },
     "37": {
       "title": "What payment methods can you add?",
-      "content": "You can currently add credit, debit and prepaid cards issued by American Express, Mastercard and Visa. You can also add PagoBANCOMAT cards. Additional payment methods will be supported in the coming months. Please check the detailed list of supported methods visiting the [Payment Methods](https://io.italia.it/metodi-pagamento) page on IO website.\n"
+      "content": "You can currently add credit, debit and prepaid cards issued by American Express, Mastercard and Visa. You can also add PagoBANCOMAT cards. Additional payment methods will be supported in the coming months. Please check the detailed list of supported methods visiting the [Payment Methods](https:\/\/io.italia.it\/metodi-pagamento) page on IO website.\n"
     },
     "38": {
       "title": "Are transaction summary and payment receipt the same thing?",
-      "content": "The summary of the transaction visible within the IO app is a summary of the operation carried out, which helps you keep track of the payments made through pagoPA.\nThe electronic receipt of the transaction is instead the document issued by the PSP (Payment Service Provider) which certifies the payment and which will be provided to you by the institution and / or the PSP."
+      "content": "The summary of the transaction visible within the IO app is a summary of the operation carried out, which helps you keep track of the payments made through pagoPA.\nThe electronic receipt of the transaction is instead the document issued by the PSP (Payment Service Provider) which certifies the payment and which will be provided to you by the institution and \/ or the PSP."
     },
     "39": {
       "title": "What is the transaction identification code?",
@@ -3256,7 +3263,7 @@
     },
     "41": {
       "title": "How can you remove a payment method?",
-      "content": "Your payment methods are displayed as a card (or cards) in the top part of the screen. By interacting with this area, you can select one of the previously added methods. The three vertical dots (top right) give you access to a menu from which you can do two things: favorite/unfavorite a payment method or permanently remove the payment method from IO. If you want to remove the method, select this option and confirm.\n"
+      "content": "Your payment methods are displayed as a card (or cards) in the top part of the screen. By interacting with this area, you can select one of the previously added methods. The three vertical dots (top right) give you access to a menu from which you can do two things: favorite\/unfavorite a payment method or permanently remove the payment method from IO. If you want to remove the method, select this option and confirm.\n"
     },
     "42": {
       "title": "How can you add a payment method?",
@@ -3268,7 +3275,7 @@
     },
     "44": {
       "title": "Why do I have to pay a transaction fee?",
-      "content": "In return for the provision of a payment service, the payer is required to pay a fee to his PSP. Fees for payment management are caused by the service costs that PSPs incur in order to guarantee a quality service (i.e., continuity of supply, transaction execution times that must be very short, costs of international circuits in case of payment by credit card, security and anti-fraud services, reliability of the infrastructure, etc). \nFor more details see the [FAQ](https://pagopa-docs-faq.readthedocs.io/it/latest/_docs/FAQ_sezioneA.html) page on the pagoPA website.\n"
+      "content": "In return for the provision of a payment service, the payer is required to pay a fee to his PSP. Fees for payment management are caused by the service costs that PSPs incur in order to guarantee a quality service (i.e., continuity of supply, transaction execution times that must be very short, costs of international circuits in case of payment by credit card, security and anti-fraud services, reliability of the infrastructure, etc). \nFor more details see the [FAQ](https:\/\/pagopa-docs-faq.readthedocs.io\/it\/latest\/_docs\/FAQ_sezioneA.html) page on the pagoPA website.\n"
     },
     "45": {
       "title": "Why do different PSPs ask for different transaction fees?",
@@ -3280,7 +3287,7 @@
     },
     "47": {
       "title": "How to manage Services on IO?",
-      "content": "Identity Providers provide different registration methods for free or for a fee and the respective SPIDs have different levels of security. Here are some useful parameters to consider if you don't have SPID yet and are deciding which Identity Provider to contact:\n\n- Method of recognition that is most convenient for you when applying (in person, via the Electronic Identity Card (CIE) *, National Service Card (CNS), Digital Signature or via webcam);\n- SPID security level desired;\n- If you are already a customer of one of the Identity Providers, you may have a simplified registration flow;\n- If you are an Italian citizen residing abroad, pay attention to who offers the service for abroad.\n\nFor more information you can consult the [SPID website](https://www.spid.gov.it/cos-e-spid/come-attivare-spid/).\n"
+      "content": "Identity Providers provide different registration methods for free or for a fee and the respective SPIDs have different levels of security. Here are some useful parameters to consider if you don't have SPID yet and are deciding which Identity Provider to contact:\n\n- Method of recognition that is most convenient for you when applying (in person, via the Electronic Identity Card (CIE) *, National Service Card (CNS), Digital Signature or via webcam);\n- SPID security level desired;\n- If you are already a customer of one of the Identity Providers, you may have a simplified registration flow;\n- If you are an Italian citizen residing abroad, pay attention to who offers the service for abroad.\n\nFor more information you can consult the [SPID website](https:\/\/www.spid.gov.it\/cos-e-spid\/come-attivare-spid\/).\n"
     },
     "48": {
       "title": "What are your areas of interest?",
@@ -3312,7 +3319,7 @@
     },
     "55": {
       "title": "How is my privacy protected?",
-      "content": "IO has been designed and developed in accordance to the principles and rules imposed by the legislation on the protection of personal data, namely the new [Regulation (EU) 2016/679 (\"GDPR\")](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN) and the [Italian Privacy Code](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) (Legislative Decree 196/2003, as recently amended). It is therefore a secure tool that protects your information and your rights. IO, however, is only a channel for Public Administrations to interact with citizens, therefore they are the owners of your personal data for their institutional functions. The IO development team is in dialogue with the [Guarantor for the protection of personal data](https://www.garanteprivacy.it/home_en) in order to make IO a best practice also from the point of view of accessibility and transparency of information related to their privacy.\n"
+      "content": "IO has been designed and developed in accordance to the principles and rules imposed by the legislation on the protection of personal data, namely the new [Regulation (EU) 2016\/679 (\"GDPR\")](https:\/\/eur-lex.europa.eu\/legal-content\/IT\/TXT\/HTML\/?uri=CELEX:32016R0679&from=EN) and the [Italian Privacy Code](https:\/\/www.normattiva.it\/uri-res\/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) (Legislative Decree 196\/2003, as recently amended). It is therefore a secure tool that protects your information and your rights. IO, however, is only a channel for Public Administrations to interact with citizens, therefore they are the owners of your personal data for their institutional functions. The IO development team is in dialogue with the [Guarantor for the protection of personal data](https:\/\/www.garanteprivacy.it\/home_en) in order to make IO a best practice also from the point of view of accessibility and transparency of information related to their privacy.\n"
     },
     "56": {
       "title": "How to delete all my personal data associated to IO?",
@@ -3320,7 +3327,7 @@
     },
     "57": {
       "title": "Did you have problems during a payment or onboarding a payment instrument?",
-      "content": "Access the [status of your payments](ioit://PAYMENTS_HISTORY_SCREEN) page to select the failed operations from the list and contact support.\n"
+      "content": "Access the [status of your payments](ioit:\/\/PAYMENTS_HISTORY_SCREEN) page to select the failed operations from the list and contact support.\n"
     },
     "58": {
       "title": "How do I claim the Bonus Vacanze?",
@@ -3344,11 +3351,11 @@
     },
     "63": {
       "title": "How can I use the Bonus Vacanze?",
-      "content": "The Holiday Bonus can be spent in the accommodation facilities participating in the initiative and located on the national territory. The Bonus attributed to your household is identified by a unique code, to which will also be associated a QR code (readable directly from your phone screen). All you have to do is communicate this code to the hotelier, together with your tax code, or show him the QR code, when paying for your stay at the accommodation where you will spend your holidays.\nFor more information: [io.italia.it/bonus-vacation](https://io.italia.it/bonus-vacanze)\nIn addition, you can consult the [User's Guide](https://www.agenziaentrate.gov.it/portale/documents/20143/233439/Guida_Bonus_Vacanze_v1.pdf/1bbb218f-b17f-6ccc-4c0c-62af8d7bb205) on the Inland Revenue website."
+      "content": "The Holiday Bonus can be spent in the accommodation facilities participating in the initiative and located on the national territory. The Bonus attributed to your household is identified by a unique code, to which will also be associated a QR code (readable directly from your phone screen). All you have to do is communicate this code to the hotelier, together with your tax code, or show him the QR code, when paying for your stay at the accommodation where you will spend your holidays.\nFor more information: [io.italia.it\/bonus-vacation](https:\/\/io.italia.it\/bonus-vacanze)\nIn addition, you can consult the [User's Guide](https:\/\/www.agenziaentrate.gov.it\/portale\/documents\/20143\/233439\/Guida_Bonus_Vacanze_v1.pdf\/1bbb218f-b17f-6ccc-4c0c-62af8d7bb205) on the Inland Revenue website."
     },
     "64": {
       "title": "How can I share the bonus with my family?",
-      "content": "If a member of your family has installed the app on their phone and has an active IO account, they can view it automatically in their \"Wallet\" section. Alternatively, if you don't have an account on the IO app, using the \"Share\" feature on the Bonus Summary screen, the app creates a copy of the unique code and QR code, which you can share with other family members via Whatsapp or other tools available on your smartphone. \n\nIt is important that you share your Bonus ONLY with the other family members authorized to spend it and/or with the tourist structure where you will spend your holiday, at the moment of paying for your stay (ask the hotelier immediately for the invoice indicating the discount obtained thanks to the Bonus Vacanze). Otherwise, you could risk that others will spend the Bonus in your place, making it unusable for all the members of your family.\n"
+      "content": "If a member of your family has installed the app on their phone and has an active IO account, they can view it automatically in their \"Wallet\" section. Alternatively, if you don't have an account on the IO app, using the \"Share\" feature on the Bonus Summary screen, the app creates a copy of the unique code and QR code, which you can share with other family members via Whatsapp or other tools available on your smartphone. \n\nIt is important that you share your Bonus ONLY with the other family members authorized to spend it and\/or with the tourist structure where you will spend your holiday, at the moment of paying for your stay (ask the hotelier immediately for the invoice indicating the discount obtained thanks to the Bonus Vacanze). Otherwise, you could risk that others will spend the Bonus in your place, making it unusable for all the members of your family.\n"
     },
     "65": {
       "title": "Where can I find the list of facilities that accept the Bonus Vacanze?",
@@ -3376,7 +3383,7 @@
     },
     "71": {
       "title": "I'm going to apply for the Bonus Vacanze but I'm not going to use it personally. Can I give it to another member of my household?",
-      "content": "Yes. Once you have requested and activated the Holiday Bonus through the IO app from July 1st, you can freely choose to use it for a holiday in which all or just a few members of your family are present; it is not necessary that you personally spend it, nor that you are present.\nPlease note that the holder of the invoice (or commercial document or receipt/tax receipt) issued by the tourist service provider will also be able to benefit from the tax deduction provided by the Holiday Bonus in next year's tax return.\n"
+      "content": "Yes. Once you have requested and activated the Holiday Bonus through the IO app from July 1st, you can freely choose to use it for a holiday in which all or just a few members of your family are present; it is not necessary that you personally spend it, nor that you are present.\nPlease note that the holder of the invoice (or commercial document or receipt\/tax receipt) issued by the tourist service provider will also be able to benefit from the tax deduction provided by the Holiday Bonus in next year's tax return.\n"
     },
     "72": {
       "title": "How will I share the bonus with my family?",
@@ -3404,7 +3411,7 @@
     },
     "78": {
       "title": "Did you have problems adding a new payment method?",
-      "content": "Access the [payment methods added status](ioit://CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN) page to select the failed operations from the list and contact support.\n"
+      "content": "Access the [payment methods added status](ioit:\/\/CREDIT_CARD_ONBOARDING_ATTEMPTS_SCREEN) page to select the failed operations from the list and contact support.\n"
     },
     "79": {
       "title": "My PagoBANCOMAT card is a debit card too. What should I pick?",
@@ -3412,7 +3419,7 @@
     },
     "80": {
       "title": "Why is the saving unsuccessful?",
-      "content": "It may depend on several reasons, but in any case we invite you to check with your bank.\nThe most frequent cases are:\n1. Your card is not enabled for online purchases.\n2. Your card has been 'paused'.\n3. You have not yet activated the 3DS service: it is a security system related to online payments.\n\nYou can see a detailed list of supported methods on the [Payment Methods](https://io.italia.it/metodi-pagamento) page."
+      "content": "It may depend on several reasons, but in any case we invite you to check with your bank.\nThe most frequent cases are:\n1. Your card is not enabled for online purchases.\n2. Your card has been 'paused'.\n3. You have not yet activated the 3DS service: it is a security system related to online payments.\n\nYou can see a detailed list of supported methods on the [Payment Methods](https:\/\/io.italia.it\/metodi-pagamento) page."
     },
     "81": {
       "title": "My card has no security code.",
@@ -3497,8 +3504,8 @@
     },
     "bpd": {
       "title": "Cashback",
-      "name": "Cashback",
       "description": "Get a refund on in-store purchases when paying with this method",
+      "name": "Cashback",
       "cta": {
         "activeBonus": "Request cashback"
       }
@@ -3567,7 +3574,6 @@
           "cta": {
             "cancel": "Remove",
             "confirm": {
-              "zero": "Apply filters",
               "one": "Apply filters ({{count}})",
               "other": "Apply filters ({{count}})"
             }
@@ -3652,11 +3658,11 @@
           "title": "Carta Giovani Nazionale",
           "eyca": "EYCA card",
           "eycaCircuit": "EYCA circuit",
+          "eycaNumber": "Card number",
           "eycaPending": "We're linking your Carta Giovani Nazionale to a EYCA Number.",
           "eycaError": "We had some issues with EYCA's systems.",
           "eycaBottomSheetTitle": "What is EYCA?",
           "eycaDescription": "Until 31 years old, your **Carta Giovani Nazionale is a member of the EYCA circuit**(European Youth Card Association).\n\n Use the Card at partners to enjoy cultural activities, shopping, transport, restaurants and accommodation in European countries partecipating in the circuit.",
-          "eycaNumber": "Card number",
           "badge": {
             "active": "Active",
             "revoked": "Revoked",
@@ -3974,10 +3980,6 @@
             "title": "The signature failed",
             "subTitle": "The institution will contact you in the next few days to get you to sign again. If this doesn't happen, please e-mail"
           },
-          "cancelled": {
-            "title": "The signature request has been cancelled",
-            "subTitle": "For further support, write to"
-          },
           "signing": {
             "title": "The signature failed",
             "subTitle": "Due to a technical problem, the signature failed. If the problem persists, contact support."
@@ -3985,6 +3987,10 @@
           "wrongUser": {
             "title": "You cannot sign these documents",
             "subTitle": "The signature request is not associated with your Tax Code."
+          },
+          "cancelled": {
+            "title": "The signature request has been cancelled",
+            "subTitle": "For further support, write to"
           }
         }
       },
@@ -4159,8 +4165,7 @@
           "content": "Paga un avviso in app o presso un qualsiasi canale abilitato a pagoPA."
         },
         "status": {
-          "failure": "FALLITA",
-          "success": ""
+          "failure": "FALLITA"
         },
         "receipt": {
           "a11y": {
@@ -5352,12 +5357,17 @@
       "identityProvider": "Identity Provider",
       "navigationData": "In-app navigation data",
       "navigationDataValue": "Such as the the last screen or message displayed in IO.",
+      "devicePerformance": "Device performance",
+      "devicePerformanceDataAndroid": "Memory and battery level",
+      "devicePerformanceDataiOS": "Memory ({{storage}}) and battery level",
       "stock": "Payment Notice details",
       "stockValue": "Including the error you just received",
       "card": "Payment methods details",
       "cardValue": "Number (encrypted), expiration, network",
       "fci": "Signature request identifier",
       "fciValue": "To check the request in progress",
+      "prominentDisclosure": "Access to the device gallery",
+      "prominentDisclosureData": "To upload photos and screenshots",
       "header": "Submit a request",
       "listTitle": "Ongoing requests",
       "title": "Do you give us your consent?",
@@ -5365,11 +5375,6 @@
       "privacyLink": "Read the privacy policy",
       "body": "In order to respond to the support request, we need access to some personal data. If you deny consent, you’ll have to send us a generic request via e-mail.",
       "listHeader": "If you consent, we'll access this data:",
-      "devicePerformance": "Device performance",
-      "devicePerformanceDataAndroid": "Memory and battery level",
-      "devicePerformanceDataiOS": "Memory ({{storage}}) and battery level",
-      "prominentDisclosure": "Access to the device gallery",
-      "prominentDisclosureData": "To upload photos and screenshots",
       "cta": {
         "allow": "Agree",
         "denies": "Deny"
@@ -5436,15 +5441,15 @@
         }
       },
       "renew": {
+        "alert": {
+          "title": "Vuoi generare un nuovo codice ID Pay?",
+          "body": "Il codice attualmente in uso verrà sovrascritto."
+        },
         "screen": {
           "header": "Codice ID Pay",
           "body": "Il codice per autorizzare i pagamenti effettuati con la tua carta d’identità elettronica",
           "link": "Come funziona?",
           "generateCTA": "Genera un nuovo codice"
-        },
-        "alert": {
-          "title": "Vuoi generare un nuovo codice ID Pay?",
-          "body": "Il codice attualmente in uso verrà sovrascritto."
         }
       }
     },
@@ -5539,12 +5544,12 @@
         }
       },
       "discountDetails": {
-        "authorizeButton": "Autorizza un pagamento",
-        "addExpenseButton": "Aggiungi spesa",
         "bottomSheetOptions": {
           "scanQr": "Inquadra un codice QR",
           "generateBarcode": "Crea un codice sconto"
         },
+        "authorizeButton": "Autorizza un pagamento",
+        "addExpenseButton": "Aggiungi spesa",
         "IDPayCode": {
           "banner": {
             "title": "Paga con la tua carta d’identità elettronica",
@@ -5772,10 +5777,10 @@
         "emptyValueError": "Select an option to continue"
       },
       "enableMessages": {
-        "cancelAction": "Cancel",
-        "subtitle": "Activate the possibility to contact you in the app to receive updates on the {{initiativeName}}. \nThis step is necessary to proceed with the request.",
         "title": "Activate messages",
-        "confirmAction": "Ok, active"
+        "subtitle": "Activate the possibility to contact you in the app to receive updates on the {{initiativeName}}. \nThis step is necessary to proceed with the request.",
+        "confirmAction": "Ok, active",
+        "cancelAction": "Cancel"
       },
       "enableNotification": {
         "title": "Non perderti l’esito delle tue richieste",
@@ -5925,6 +5930,10 @@
       "button": {
         "continue": "Rimuovi"
       },
+      "removeAlert": {
+        "title": "Do you want to delete {{initiativeName}} from the wallet?",
+        "content": "The bonus will be removed."
+      },
       "modal": {
         "title": "Rimuovere {{initiativeName}}?",
         "content": "L’operazione è irreversibile e ha effetto su tutti i canali. Non potrai più utilizzare i fondi a disposizione."
@@ -5938,10 +5947,6 @@
         "title": "C’è un problema sui nostri sistemi",
         "content": "Ci scusiamo per il disagio.\n Ti invitiamo a riprovare più tardi.",
         "button": "Chiudi"
-      },
-      "removeAlert": {
-        "title": "Do you want to delete {{initiativeName}} from the wallet?",
-        "content": "The bonus will be removed."
       }
     },
     "payment": {
@@ -6139,8 +6144,8 @@
         "debtor": "Debitore",
         "iuv": "IUV",
         "subject": "Oggetto del pagamento",
-        "noticeCode": "Codice avviso/IUV",
-        "noticeCodeAccessible": "Codice avviso/Identificativo Univoco Versamento",
+        "noticeCode": "Codice avviso\/IUV",
+        "noticeCodeAccessible": "Codice avviso\/Identificativo Univoco Versamento",
         "taxCode": "Codice Fiscale Ente"
       }
     }
