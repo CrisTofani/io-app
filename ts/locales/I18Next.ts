@@ -1,6 +1,8 @@
 import OtaClient from "@crowdin/ota-client";
 import i18next, { InitOptions, ModuleType } from "i18next";
 import { initReactI18next } from "react-i18next";
+import ChainedBackend from "i18next-chained-backend";
+import resourcesToBackend from "i18next-resources-to-backend";
 import it from "../../locales/it/index.json";
 import en from "../../locales/en/index.json";
 import de from "../../locales/de/index.json";
@@ -24,16 +26,21 @@ class CrowdinOtaI18next {
 
 const module = new CrowdinOtaI18next("cb31c7d87a603b14565978a9cxg");
 
+const bundledResources = {
+  it,
+  en,
+  de
+};
+
 void i18next
+  .use(ChainedBackend)
   .use(module)
   .use(initReactI18next)
   .init({
     lng: "it",
     fallbackLng: "it",
-    resources: {
-      it,
-      en,
-      de
+    backend: {
+      backends: [module, resourcesToBackend(bundledResources)]
     }
   } as InitOptions);
 

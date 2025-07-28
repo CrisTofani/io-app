@@ -104,6 +104,8 @@
     "hastscript": "^7.0.2",
     "hoist-non-react-statics": "^3.0.1",
     "i18next": "^25.3.2",
+    "i18next-chained-backend": "^4.6.2",
+    "i18next-resources-to-backend": "^1.2.1",
     "io-ts": "^2.2.16",
     "jail-monkey": "^2.8.3",
     "jwk-thumbprint": "^0.1.4",
