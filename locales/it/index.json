@@ -24,7 +24,15 @@
       "venerdì",
       "sabato"
     ],
-    "abbr_day_names": ["dom", "lun", "mar", "mer", "gio", "ven", "sab"],
+    "abbr_day_names": [
+      "dom",
+      "lun",
+      "mar",
+      "mer",
+      "gio",
+      "ven",
+      "sab"
+    ],
     "month_names": [
       " ",
       "gennaio",
@@ -55,7 +63,10 @@
       "nov",
       "dic"
     ],
-    "meridian": ["am", "pm"],
+    "meridian": [
+      "am",
+      "pm"
+    ],
     "time": {
       "minutes": {
         "zero": "0 minuti",
@@ -282,7 +293,7 @@
       "title": "Ti va di dirci perché?",
       "description": "Raccontaci cosa è andato storto nella tua esperienza con IO: useremo i tuoi suggerimenti per rendere l'app ancora più efficiente.",
       "continue": "Dai un suggerimento",
-      "discard": "Non ora"
+      "discard": "No"
     }
   },
   "rooted": {
