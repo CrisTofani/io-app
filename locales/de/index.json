@@ -2,6 +2,7 @@
   "accessibility": {
     "doubleTapToActivateHint": "Doppeltippen zum Aktivieren",
     "buttons": {
+      "navigateBack": "Zurück zum vorherigen Bildschirm",
       "torch": {
         "turnOn": "Taschenlampe einschalten",
         "turnOff": "Taschenlampe ausschalten"
@@ -212,7 +213,8 @@
       "findOutMore": "Mehr erfahren",
       "details": "Details",
       "choose": "Auswählen",
-      "copy": "Kopieren"
+      "copy": "Kopieren",
+      "deselectAll": "Alles abwählen"
     },
     "navigator": {
       "messages": "Mitteilungen",
